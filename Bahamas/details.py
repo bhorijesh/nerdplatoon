@@ -134,7 +134,7 @@ def scrape_property_details(soup, amenities):
                     for dt, dd in zip(dt_elements, dd_elements):
                         detail_key = dt.text.strip()
                         detail_value = dd.text.strip()
-                        if detail_key == 'Amenities' and detail_value != 'None':
+                        if detail_key == 'Amenities':
                             amenities.append(detail_value)  
                         elif detail_key and detail_value:
                             section_values[detail_key] = detail_value
@@ -146,29 +146,38 @@ def scrape_property_details(soup, amenities):
     return property_details
 
 def scrap_features_details(soup):
-    """Scrapes the features details section """
+    """Scrapes the features details section with dt and dd as key-value pairs."""
     features_details = {}
-    try:
-        feature_container = soup.find('div', class_='prop-description__features  u-margin-bottom')
-        if feature_container:
-            for section in feature_container.find_all('h3', class_='o-title  o-title--alt  o-title-page--spaced'):
-                section_key = section.text.strip()
-                section_values = {}
-                next_sibling = section.find_next_sibling('dl')
-                if next_sibling:
-                    dt_elements = next_sibling.find_all('dt', class_="prop-description__label")
-                    dd_elements = next_sibling.find_all('dd', class_="prop-description__value")
-                    for dt, dd in zip(dt_elements, dd_elements):
-                        detail_key = dt.text.strip()
-                        detail_value = dd.text.strip()
-                        if detail_key and detail_value:
-                            section_values[detail_key] = detail_value
-                if section_values:
-                    features_details[section_key] = section_values
-    except Exception as e:
-        print(f"Error extracting property details: {e}")
     
-    return features_details
+    try:
+        # Locate the features section container by class name
+        feature_container = soup.find('div', class_='prop-description__features u-margin-bottom')
+        
+        # Check if the feature_container exists
+        if feature_container:
+            dl_elements = feature_container.find_all('dl', class_="u-margin-bottom")
+            
+            for dl_element in dl_elements:
+                # Find all dt and dd pairs within each dl element
+                dt_elements = dl_element.find_all('dt', class_="prop-description__label")
+                dd_elements = dl_element.find_all('dd', class_="prop-description__value")
+                
+                # Ensure the lengths of dt_elements and dd_elements match
+                for dt, dd in zip(dt_elements, dd_elements):
+                    detail_key = dt.get_text(strip=True)
+                    detail_value = dd.get_text(strip=True)
+                    
+                    if detail_key and detail_value:
+                        features_details[detail_key] = detail_value  # Store key-value pairs
+        
+        return features_details if features_details else None
+    
+    except Exception as e:
+        print(f"Error extracting features details: {e}")
+        return None
+
+
+
 
 
 def img_url_scrap(soup):
@@ -198,13 +207,13 @@ def img_url_scrap(soup):
 
 def scrape_lat_lng(driver):
     """Clicks the 'Map' tab and scrapes the latitude and longitude."""
+    lat_lng_found = 0 
+    
     try:
-        # Click on the "Map" tab to load latitude and longitude
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'map_tab')))
         map_tab = driver.find_element(By.ID, "map_tab")
         map_tab.click()
-        
-        # Wait for the latitude and longitude fields to appear
+
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.NAME, 'daddr')))
         
         lat_lng_value = driver.find_element(By.NAME, 'daddr').get_attribute('value')
@@ -212,11 +221,16 @@ def scrape_lat_lng(driver):
         if lat_lng_value:
             lat, lng = lat_lng_value.split(',')
             lat = lat.strip() 
-            lng = lng.strip()  
-            return lat, lng
+            lng = lng.strip()
+            lat_lng_found = 1  
+            return lat, lng, lat_lng_found
+        else:
+            print("Latitude and Longitude not found.")
+            return None, None, lat_lng_found
         
-        return None, None 
-        
+    except Exception as e:
+        print(f"Error extracting latitude and longitude: {e}")
+        return None, None, lat_lng_found
     except Exception as e:
         print(f"Error extracting latitude and longitude: {e}")
         return None, None
@@ -241,7 +255,7 @@ def scrape_data(driver, link):
     amenities = scrape_amenities(soup)
     property_details = scrape_property_details(soup, amenities)
     features_details = scrap_features_details(soup)
-    lat, lng = scrape_lat_lng(driver)
+    lat, lng,lat_lng_found = scrape_lat_lng(driver)
     img_urls = img_url_scrap(soup) 
 
     return {
@@ -254,7 +268,8 @@ def scrape_data(driver, link):
         'amenities': amenities,  
         'lat': lat,
         'lng': lng,
-        **features_details,
+        'flag': lat_lng_found,
+        'new_feature': features_details ,
         **listing_details,
         **property_details,
         'img': img_urls,
@@ -266,10 +281,19 @@ def main():
     csv_data = pd.read_csv('link.csv')
 
     scraped_data = []
+    # specific_url = 'https://www.hgchristie.com/eng/rentals/detail/529-l-82278-f1295879047/26-charlotteville-charlotteville-np'
+    
+    # try:
+    #     # Scrape data for the specific URL
+    #     data = scrape_data(driver, specific_url)
+    #     if data:
+    #         scraped_data.append(data)
+    # except Exception as e:
+    #     print(f"Error scraping {specific_url}: {e}")
 
     for index, row in csv_data.iterrows():
-        if index >= 10:  
-            break
+        # if index >= 15:  
+        #     break
         link = row['LINKS']
         try:
             data = scrape_data(driver, link)

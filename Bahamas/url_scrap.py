@@ -69,7 +69,9 @@ def main():
     # List of URLs to scrape
     urls = [
         "https://www.hgchristie.com/eng/sales/new-listings-sort/",
-        "https://www.hgchristie.com/eng/sales/price-high-sort/"
+        "https://www.hgchristie.com/eng/sales/old-listings-sort/",
+        "https://www.hgchristie.com/eng/rentals/new-listings-sort/",
+        "https://www.hgchristie.com/eng/rentals/old-listings-sort/"
     ]
 
     # Loop through each URL

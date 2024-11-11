@@ -170,28 +170,31 @@ def img_url_scrap(soup):
 
 def scrape_lat_lng(driver):
     """Clicks the 'Map' tab and scrapes the latitude and longitude."""
+    lat_lng_found = 0 
+    
     try:
-        # Click on the "Map" tab to load latitude and longitude
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, 'map_tab')))
+        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, 'map_tab')))
         map_tab = driver.find_element(By.ID, "map_tab")
         map_tab.click()
-        
-        # Wait for the latitude and longitude fields to appear
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, 'daddr')))
+
+        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.NAME, 'daddr')))
         
         lat_lng_value = driver.find_element(By.NAME, 'daddr').get_attribute('value')
         
         if lat_lng_value:
             lat, lng = lat_lng_value.split(',')
             lat = lat.strip() 
-            lng = lng.strip()  
-            return lat, lng
-        
-        return None, None 
+            lng = lng.strip()
+            lat_lng_found = 1  
+            return lat, lng, lat_lng_found
+        else:
+            print("Latitude and Longitude not found.")
+            return None, None, lat_lng_found
         
     except Exception as e:
         print(f"Error extracting latitude and longitude: {e}")
-        return None, None
+        return None, None, lat_lng_found
+
 
 def scrape_data(driver, link):
     """Main function to scrape data from a single property listing."""
@@ -214,7 +217,7 @@ def scrape_data(driver, link):
     listing_details = scrape_listing_details(soup)
     amenities = scrape_amenities(soup)
     property_details = scrape_property_details(soup, amenities)
-    lat, lng = scrape_lat_lng(driver)
+    lat, lng,lat_lng_found = scrape_lat_lng(driver)
     img_urls = img_url_scrap(soup) 
 
     return {
@@ -227,6 +230,7 @@ def scrape_data(driver, link):
         'amenities': amenities,  
         'lat': lat,
         'lng': lng,
+        'flag': lat_lng_found,
         **listing_details,
         **property_details,
         'img': img_urls,
@@ -253,7 +257,7 @@ def main():
     # Create a DataFrame and save to CSV
     if scraped_data:
         scraped_df = pd.DataFrame(scraped_data)
-        scraped_df.to_csv('details.csv', index=False)
+        scraped_df.to_csv('details1.csv', index=False)
         print("Scraping completed!")
     else:
         print("No data was scraped.")

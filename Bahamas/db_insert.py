@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import sys
+import mysql.connector
 
 # Starting from the current script
 current_dir = os.path.dirname(__file__)
@@ -23,14 +24,18 @@ def insert_into_table(cursor, table):
     columns = ', '.join([f"`{col}`" for col in df.columns])
     placeholders = ', '.join(['%s'] * len(df.columns))
     
-    # Prepare the INSERT query
-    insert_query = f'INSERT INTO {table} ({columns}) VALUES ({placeholders})'
+    # Prepare the INSERT query with INSERT IGNORE to handle duplicates
+    insert_query = f'INSERT IGNORE INTO {table} ({columns}) VALUES ({placeholders})'
     
     try:
-        # Iterate through each row, converting NaNs to None explicitly
-        for index, row in df.iterrows():
-            row_data = [None if pd.isna(val) else val for val in row]  # Handle NaN in each cell
-            cursor.execute(insert_query, tuple(row_data))
+        # Collect all row data into a list of tuples
+        rows_to_insert = [
+            tuple(None if pd.isna(val) else val for val in row) for index, row in df.iterrows()
+        ]
+        
+        # Execute the query with all rows in one go
+        cursor.executemany(insert_query, rows_to_insert)
+        
         print(f"Inserted {len(df)} rows into {table}.")
     except Exception as e:
         print(f'Error while inserting into Database: {e}')
@@ -42,7 +47,7 @@ def main():
         print(f"Database connection error: {e}")
         return
     
-    table = 'bahamas'
+    table = 'Bahamas'
     
     insert_into_table(cursor, table)
     db_connection.commit()  # Commit changes to the database
