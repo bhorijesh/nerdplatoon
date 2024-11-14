@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import sys
 import mysql.connector
+import datetime
 
 # Starting from the current script
 current_dir = os.path.dirname(__file__)
@@ -13,9 +14,10 @@ sys.path.append(Bahamas)
 # Corrected import statement
 from base.db_connect import connect_database
 
+
 def insert_into_table(cursor, table):
     # Load the CSV data
-    df = pd.read_csv('details.csv')
+    df = pd.read_csv('details1.csv')
     
     # Replace NaN values with None (which translates to NULL in MySQL)
     df = df.where(pd.notnull(df), None)

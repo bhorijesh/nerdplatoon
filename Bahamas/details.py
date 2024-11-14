@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 import uuid
+import datetime
 
 # Initialize the Chrome driver in headless mode (optional for performance)
 options = webdriver.ChromeOptions()
@@ -234,16 +235,17 @@ def scrape_lat_lng(driver):
     except Exception as e:
         print(f"Error extracting latitude and longitude: {e}")
         return None, None
+    
 
 def scrape_data(driver, link):
     """Main function to scrape data from a single property listing."""
     driver.get(link)
-
     driver = wait_for_element(driver, By.ID, 'ctl00_PageBody')
     soup = BeautifulSoup(driver.page_source, 'html.parser')
 
     link_type = link.split('/')[4]
     unique_id = str(uuid.uuid4())
+
 
 
     # Scrape various sections of data
@@ -274,7 +276,8 @@ def scrape_data(driver, link):
         **property_details,
         'img': img_urls,
         'type': link_type,
-        'uuid' : unique_id
+        'uuid' : unique_id,
+        'created_at': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
 
 def main():
