@@ -32,3 +32,4 @@ def connect_database(
           
      except Exception as error:
           print(f'Error while connecting database : {error}')
+          

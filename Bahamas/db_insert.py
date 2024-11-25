@@ -15,9 +15,16 @@ sys.path.append(Bahamas)
 from base.db_connect import connect_database
 
 
-def insert_into_table(cursor, table):
+
+
+def clean_database(df):
+    df['Exterior'] =  df['Exterior'].replace('Acres', '')
+    df['Interior'] = df['Interior'].replace({r',': '', r' Sq Ft\.': ''}, regex=True)
+    
+    
+    
+def insert_into_table(cursor, table,df):
     # Load the CSV data
-    df = pd.read_csv('details1.csv')
     
     # Replace NaN values with None (which translates to NULL in MySQL)
     df = df.where(pd.notnull(df), None)
@@ -43,15 +50,17 @@ def insert_into_table(cursor, table):
         print(f'Error while inserting into Database: {e}')
 
 def main():
+    df = pd.read_csv('details1.csv')
     try:
         db_connection, cursor = connect_database()
     except Exception as e:
         print(f"Database connection error: {e}")
         return
     
+    clean_database(df)
     table = 'Bahamas'
     
-    insert_into_table(cursor, table)
+    insert_into_table(cursor, table,df)
     db_connection.commit()  # Commit changes to the database
     
     print('Data Insertion into Database Completed')
