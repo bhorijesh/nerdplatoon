@@ -47,7 +47,7 @@ def extract_href_from_html(html_content):
         logger.error(f"Error extracting href: {e}")
         return None
 
-def save_data_to_csv(data, country_name, filename="a_url.csv"):
+def save_data_to_csv(data, country_name, filename="api_url.csv"):
     """
     Save the extracted data to a CSV file with 'link' extracted from 'html' column.
     Appends country-specific data to the CSV file.
@@ -79,7 +79,7 @@ def main():
     """
     Main function to fetch data for all countries and save it to a file.
     """
-    for country_name, country_data in country_listing.items():
+    for country_name, in country_listing.items():
         logger.info(f"Processing data for {country_name}...")
 
         # Get dynamic querystring and headers
