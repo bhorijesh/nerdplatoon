@@ -1,11 +1,8 @@
 import requests
 from base.api_config import *
-import time
-from time import sleep
 from bs4 import BeautifulSoup
 import pandas as pd
 from base.log_config import logger
-import json
 import html
 
 
@@ -47,7 +44,7 @@ def extract_href_from_html(html_content):
         logger.error(f"Error extracting href: {e}")
         return None
 
-def save_data_to_csv(data, country_name, filename="a_url.csv"):
+def save_data_to_csv(data, country_name, filename="api_url.csv"):
     """
     Save the extracted data to a CSV file with 'link' extracted from 'html' column.
     Appends country-specific data to the CSV file.
@@ -58,14 +55,16 @@ def save_data_to_csv(data, country_name, filename="a_url.csv"):
             if 'html' in df.columns:
                 df['link'] = df['html'].apply(lambda x: extract_href_from_html(x))
                 df.drop(columns=['html'], inplace=True)
-
+                df.drop_duplicates(subset=['link'], inplace=True)
             if 'zoom' in df.columns:
                 df.drop(columns=['zoom'], inplace=True)
             if 'title' in df.columns:
                 df["title"] = df['title'].apply(html.unescape)
 
             # Add country name to the DataFrame
-            df['country'] = "Canada"
+            df['city'] = country_name
+            df['contry'] = "Canada"
+
             # Append to the CSV file
             with open(filename, 'a') as f:
                 df.to_csv(f, index=False, header=f.tell() == 0)  

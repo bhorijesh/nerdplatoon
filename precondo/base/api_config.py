@@ -1,23 +1,5 @@
 api_url = "https://precondo.ca/wp-admin/admin-ajax.php" 
 
-# Query parameters
-# querystring = {"action": "list_listing", "filter[]": "843", "term": "163"}
-
-# payload = ""
-# headers = {
-#     "accept": "application/json, text/javascript, */*; q=0.01",
-#     "accept-language": "en-US,en;q=0.9",
-#     "priority": "u=1, i",
-#     "referer": "https://precondo.ca/",
-#     "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
-#     "sec-ch-ua-mobile": "?0",
-#     "sec-ch-ua-platform": '"Linux"',
-#     "sec-fetch-dest": "empty",
-#     "sec-fetch-mode": "cors",
-#     "sec-fetch-site": "same-origin",
-#     "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-#     "x-requested-with": "XMLHttpRequest"
-# }
 country_listing = {
     "ajax": {
         "url": "https://precondo.ca/new-condos-ajax/",

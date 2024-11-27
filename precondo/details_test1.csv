@@ -1,5 +1,5 @@
-link,title,address,lat,lan,country,price,amenities,img_src,description,occupancy:,suites:,storeys:,developer:
-https://precondo.ca/eagle-woods-townhouse/,Eagle Woods Townhouse,"Decorso Dr, Guelph, ON",43.5257499,-80.1922332,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-bedroom-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-bedroom-area-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-bath-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-kitchen-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-kitchen-area-featuring-stairs-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-site-plan.jpg']","<div class=""description__box short mt-3"">
+link,title,address,lat,lng,city,country,price,amenities,img_src,description,occupancy:,suites:,storeys:,developer:,price_range,one_bed_starting_from,two_bed_starting_from,price_per_sqft,city_avg_price_per_sqft,development_levies,parking_cost,parking_maintenance,assignment_fee_free,storage_cost,deposit_structure,Avg Price Per Sqft,Incentives
+https://precondo.ca/eagle-woods-townhouse/,Eagle Woods Townhouse,"Decorso Dr, Guelph, ON",43.5257499,-80.1922332,ajax,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-exterior-view-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-bedroom-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-bedroom-area-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-bath-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-kitchen-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-kitchen-area-featuring-stairs-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/09/Eagle-Woods-site-plan.jpg']","
 <h2 class=""widgettitle"">About Eagle Woods Townhouse Development</h2>
 <p>Eagle Woods Townhouse is a new house development that is currently in the pre-construction phase by John Boddy Homes, located at Sharplin Drive &amp; Denny Street, Ajax, ON. Eagle Woods Townhouse offers diverse homes, ample amenities, and easy access to nature. This project’s estimated completion date is in 2024.</p>
 <h2>Key Takeaways</h2>
@@ -67,8 +67,8 @@ https://precondo.ca/eagle-woods-townhouse/,Eagle Woods Townhouse,"Decorso Dr, Gu
 <p>Eagle Woods provides a variety of recreational activities, including well-equipped parks, scenic trails, and waterfront options like boating and fishing. These amenities cater to diverse outdoor interests and promote an active lifestyle.</p>
 <p>Check out more new condo developments in Ajax. (https://precondo.ca/new-condos-ajax/)</p>
 Read More (javascript:void(0))
-</div>",2024,550,N/A,John
-https://precondo.ca/eagle-glen-homes/,Eagle Glen Homes,"Williamson Drive West & Searell Avenue,  Ajax,   ON",43.8816573,-79.052628,Canada,N/A,,['https://precondo.ca/wp-content/uploads/2024/02/precondo.jpeg'],"<div class=""description__box short mt-3"">
+",2024,550,,John,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/eagle-glen-homes/,Eagle Glen Homes,"Williamson Drive West & Searell Avenue,  Ajax,   ON",43.8816573,-79.052628,ajax,Canada,,,['https://precondo.ca/wp-content/uploads/2024/02/precondo.jpeg'],"
 <h2 class=""widgettitle"">About Eagle Glen Homes Development</h2>
 <p>Eagle Glen Homes is a new home development that is currently in the pre-construction phase by John Boddy Homes, located at Williamson Drive West &amp; Searell Avenue, Ajax, ON. Eagle Glen Homes is a prestigious residential community in North Ajax, with homes crafted and characterized by luxury craftsmanship and thoughtful design. This project’s estimated completion date is still unknown.</p>
 <h2>Key Takeaways</h2>
@@ -151,8 +151,8 @@ https://precondo.ca/eagle-glen-homes/,Eagle Glen Homes,"Williamson Drive West & 
 <p>The location of Eagle Glen is very convenient, as it offers direct access to major highways and public transit.</p>
 <p>Looking to explore options? Check out more new condo developments in Ajax. (https://precondo.ca/new-condos-ajax/)</p>
 Read More (javascript:void(0))
-</div>",tba,N/A,N/A,John
-https://precondo.ca/manhattan-place-homes/,Manhattan Place Homes,,43.8722495,-79.0592312,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes.jpg']","<div class=""description__box short mt-3"">
+",tba,,,John,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/manhattan-place-homes/,Manhattan Place Homes,,43.8722495,-79.0592312,ajax,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/manhattan-place-homes.jpg']","
 <h2 class=""widgettitle"">About Manhattan Place Homes Development</h2>
 <p data-pm-slice=""1 1 []"">Manhattan Place Homes by Fourteen Estates and Construct and Conserve,  is located at 520 Rossland West Ajax, ON. Manhattan Place Homes offers a selection of exclusive luxury homes with unique architectural designs that reflect the grandeur of New York’s landmarks. The estimated completion date is unknown.</p>
 <p data-pm-slice=""1 1 []"">Nestled near Duffins Creek conservation areas, Manhattan Place is not just a place to live but a serene escape that still keeps you connected to city amenities and transport links.</p>
@@ -245,8 +245,8 @@ https://precondo.ca/manhattan-place-homes/,Manhattan Place Homes,,43.8722495,-79
 <p>Manhattan Place Homes are very energy-efficient, as they include solar roofing, smart thermostats, and water leak detection technology.</p>
 <p>Register on Precondo.ca and check out new condo listings in Ajax. (https://precondo.ca/new-condos-ajax/)</p>
 Read More (javascript:void(0))
-</div>",tba,N/A,N/A,Fourteen
-https://precondo.ca/atowns/,aTowns,"Bayly Street East & Salem Road South,  Ajax,   ON",43.846747,-79.005909,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/02/01-33.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/02-1-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/03-2-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/04-16.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/05-1-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/06-7.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/07-1-3.jpg']","<div class=""description__box short mt-3"">
+",tba,,,Fourteen,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/atowns/,aTowns,"Bayly Street East & Salem Road South,  Ajax,   ON",43.846747,-79.005909,ajax,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/02/01-33.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/02-1-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/03-2-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/04-16.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/05-1-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/06-7.jpg', 'https://precondo.ca/wp-content/uploads/2024/02/07-1-3.jpg']","
 <h2 class=""widgettitle"">About aTowns Development</h2>
 <p>aTowns is a new town development that is currently in the pre-construction phase by Paradise Developments, located at Bayly Street East &amp; Salem Road South, Ajax, ON. aTowns is a townhome that provides a range of modern townhome styles. This project’s estimated completion date is in 2021.</p>
 <h2>Key Takeaways</h2>
@@ -331,8 +331,8 @@ https://precondo.ca/atowns/,aTowns,"Bayly Street East & Salem Road South,  Ajax,
 <p>Yes, aTowns offer good access to the public Large Shopping Centre with Durham Region Transit bus routes and the Ajax GO Station, as well as convenient proximity to Highway 401.</p>
 <p>Explore more new condominiums in Ajax. (https://precondo.ca/new-condos-ajax/)</p>
 Read More (javascript:void(0))
-</div>",2021,N/A,N/A,Paradise
-https://precondo.ca/monteverdi-estates/,Monteverdi Estates,"Yonge Street & Bloomington Road,  Aurora,   ON",43.9629904,-79.4587584,Canada,"$ 2,949,990+","['Laundry Room', 'Storage Room', 'Dining Area']","['https://precondo.ca/wp-content/uploads/2024/04/01-24.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/13-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-17.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11-1.jpg']","<div class=""description__box short mt-3"">
+",2021,,,Paradise,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/monteverdi-estates/,Monteverdi Estates,"Yonge Street & Bloomington Road,  Aurora,   ON",43.9629904,-79.4587584,aurora,Canada,"$ 2,949,990+","['Laundry Room', 'Storage Room', 'Dining Area']","['https://precondo.ca/wp-content/uploads/2024/04/01-24.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/13-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-17.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11-1.jpg']","
 <h2 class=""widgettitle"">About Monteverdi Estates Development</h2>
 <p>Monteverdi Estates is a new estate development that is currently in the pre-construction phase by Ambria Homes, located at Yonge St &amp; Bloomington Road, Aurora, ON. Monteverdi Estates presents a premier selection of homes in Aurora that combine luxury, convenience, and impeccable design. This project’s estimated completion date is in 2024.</p>
 <h2>Key Takeaways</h2>
@@ -444,8 +444,8 @@ https://precondo.ca/monteverdi-estates/,Monteverdi Estates,"Yonge Street & Bloom
 <p>Ambria Homes is the esteemed developer behind Monteverdi Estates.</p>
 <p>Looking for new condominiums in Aurora (https://precondo.ca/new-condos-aurora/)? Explore more here.</p>
 Read More (javascript:void(0))
-</div>",2024,50,,Ambria
-https://precondo.ca/high-park-urban-towns/,High Park Urban Towns,"15086 Yonge Street,  Aurora,   ON",43.9958,-79.46689,Canada,"$ 749,990+","['ParketteRooftop Patio', 'Underground Parking GarageLaundry Room', 'Storage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2024/04/01-21.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-14.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/13.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/14.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/16.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/15.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-9.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/17.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/18.jpg']","<div class=""description__box short mt-3"">
+",2024,50,,Ambria,,,,$ 733,,,,,No,,,,
+https://precondo.ca/high-park-urban-towns/,High Park Urban Towns,"15086 Yonge Street,  Aurora,   ON",43.9958,-79.46689,aurora,Canada,"$ 749,990+","['ParketteRooftop Patio', 'Underground Parking GarageLaundry Room', 'Storage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2024/04/01-21.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-14.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/13.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/14.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/16.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/15.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-9.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/17.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/18.jpg']","
 <h2 class=""widgettitle"">About High Park Urban Towns Development</h2>
 <p>High Park Urban Towns is a new town development that is currently in the pre-construction phase by Caliber Homes, located at 15086 Yonge Street, Aurora, ON. High Park Urban Towns offers a sophisticated yet tranquil living experience. This project’s estimated completion date is in 2024.</p>
 <h2>Key Takeaways</h2>
@@ -537,8 +537,8 @@ https://precondo.ca/high-park-urban-towns/,High Park Urban Towns,"15086 Yonge St
 <p>Residents of High Park Urban Towns have access to GO Transit options and underground parking for their convenience, facilitating easy commuting within surrounding areas and downtown Toronto.</p>
 <p>Check out more new condo developments in Aurora (https://precondo.ca/new-condos-aurora/).</p>
 Read More (javascript:void(0))
-</div>",2024,53,4,Caliber
-https://precondo.ca/allegro-homes/,Allegro Homes,"36 Klees Crescent,  Aurora,   ON",43.9865938,-79.4899659,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/04/01-28.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-21.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-16.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-9.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-7.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-5.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/13-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/14-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/15-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/16-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/17-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/18-1.jpg']","<div class=""description__box short mt-3"">
+",2024,53,4,Caliber,,"$ 749,990","$ 999,990",$ 966,,"Capped at $7,500",,$ 29.95,Yes,,,,
+https://precondo.ca/allegro-homes/,Allegro Homes,"36 Klees Crescent,  Aurora,   ON",43.9865938,-79.4899659,aurora,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/04/01-28.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-21.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-16.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-9.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-7.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-5.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/13-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/14-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/15-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/16-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/17-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/18-1.jpg']","
 <h2 class=""widgettitle"">About Allegro Homes Development</h2>
 <p>Allegro Homes is a new home development that is currently in the pre-construction phase by Geranium, located at 36 Klees Crescent, Aurora, ON. Allegro Homes offers just that – sophisticated living spaces paired with an ideal location. This project’s estimated completion date is in 2025.</p>
 <h2>Key Takeaways</h2>
@@ -621,8 +621,8 @@ https://precondo.ca/allegro-homes/,Allegro Homes,"36 Klees Crescent,  Aurora,   
 <p>Allegro residents have access to private golf courses, parks with sports facilities, and biking and walking trails for recreational activities. Tennis, soccer, and softball are also available at the local parks.</p>
 <p>You can check out more pre-construction condos in Aurora (https://precondo.ca/new-condos-aurora/).</p>
 Read More (javascript:void(0))
-</div>",2025,N/A,N/A,Geranium
-https://precondo.ca/princeton-heights-townhomes/,Princeton Heights Townhomes,"Yonge Street & Calla Trail,  Aurora,   ON",43.9661749,-79.459588,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/04/01-36.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-25.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-20.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-16.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-10.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08-5.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12-3.jpg']","<div class=""description__box short mt-3"">
+",2025,,,Geranium,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/princeton-heights-townhomes/,Princeton Heights Townhomes,"Yonge Street & Calla Trail,  Aurora,   ON",43.9661749,-79.459588,aurora,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/04/01-36.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-25.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-20.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-16.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-12.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-10.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/08-5.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/09-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/10-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/11-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/12-3.jpg']","
 <h2 class=""widgettitle"">About Princeton Heights Townhomes Development</h2>
 <p>Princeton Heights Townhomes is a new home development that is currently in the pre-construction phase by Fernbrook Homes, located at Yonge St &amp; Calla Trail, Aurora, ON. Princeton Heights Townhomes are crafted for those who seek elegance without forgoing a sense of belonging. This project’s estimated completion date is still unknown.</p>
 <h2>Key Takeaways</h2>
@@ -708,8 +708,8 @@ https://precondo.ca/princeton-heights-townhomes/,Princeton Heights Townhomes,"Yo
 <p>Yes, Princeton Heights is known for its quiet and safe environment, making it a family-friendly community.</p>
 <p>Looking for more options? Explore more new condo developments in Aurora. (https://precondo.ca/new-condos-Aurora/)</p>
 Read More (javascript:void(0))
-</div>",tba,30,N/A,Fernbrook
-https://precondo.ca/debut-waterfront-residences/,Début Waterfront Residences,"55 Dunlop St W, Barrie, ON",44.3883938,-79.6917101,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-ResidencesMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences6.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences3.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences4.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences2.jpg']","<div class=""description__box short mt-3"">
+",tba,30,,Fernbrook,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/debut-waterfront-residences/,Début Waterfront Residences,"55 Dunlop St W, Barrie, ON",44.3883938,-79.6917101,barrie,Canada,,,"['https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-ResidencesMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences6.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences3.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences4.jpg', 'https://precondo.ca/wp-content/uploads/2020/09/Début-Waterfront-Residences2.jpg']","
 <h2 class=""widgettitle"">About Début Waterfront Residences Development</h2>
 <p class=""ql-align-justify"">Début Waterfront Residences represents an upcoming condominium project in the early stages of development, spearheaded by Gary Silverberg and situated at 55 Dunlop Street West, Barrie, ON, Canada, L4N 1A4. This condominium complex is set to feature two towering high-rises, each reaching 33 floors, and encompassing a sum of 495 living spaces. The projected timeline for the completion of this property is slated for 2024.</p>
 <p class=""ql-align-justify"">The project has Scott Shields Architects and Oleson Worland Architects who are handling the world-class architecture and designed plans. Coming to Barrie, the architects have proposed top designs that will appeal to all types of residents and also offer plenty of luxury units.</p>
@@ -734,8 +734,8 @@ https://precondo.ca/debut-waterfront-residences/,Début Waterfront Residences,"5
 <p class=""ql-align-justify"">Gary Silverberg is an artist as well as a real estate developer who focuses on bringing new and innovative ways to enhance the lifestyle of residents. Be it retail properties or residential developments, the builder wants to completely change the way we live. It has more than 40 years of experience in the industry.</p>
 <p class=""ql-align-justify"">Some of their top constructions include Art Condos, The Strip Mall, etc. Investors can expect some of the top amenities and designs. So, stay tuned to Precondo.ca to get more information and access to Debut Waterfront Residences and pre construction condo projects in and around Barrie (https://precondo.ca/new-condos-barrie/).</p>
 Read More (javascript:void(0))
-</div>",2024,N/A,N/A,Gary
-https://precondo.ca/soba-south-barrie-towns/,SOBA – South Barrie Towns,"Patterson Road & Phillips Street, Barrie, ON",44.36741,-79.70818,Canada,N/A,,['https://precondo.ca/wp-content/uploads/2021/04/SOBA-South-Barrie-TownsMain1Featured.jpg'],"<div class=""description__box short mt-3"">
+",2024,,,Gary,"$ 403,900+",Register Now,Register Now,,$ 805 / sqft,,,,,,"$5,000 on signingBalance to 5% in 30 days2.5% in 180 days2.5% in 365 days5% on January 2, 20225% on January 2, 2023",,
+https://precondo.ca/soba-south-barrie-towns/,SOBA – South Barrie Towns,"Patterson Road & Phillips Street, Barrie, ON",44.36741,-79.70818,barrie,Canada,,,['https://precondo.ca/wp-content/uploads/2021/04/SOBA-South-Barrie-TownsMain1Featured.jpg'],"
 <h2 class=""widgettitle"">About SOBA – South Barrie Towns Development</h2>
 <p class=""ql-align-justify"">SOBA South Barrie Towns is a new townhouse development that is currently in the pre construction phase by Sunrise Homes, located at Patterson Road &amp; Phillips Street, Barrie, ON. This project will house a limited collection of townhomes with a total of 46 units in low rise buildings. The estimated completion date for occupancy for this property is still unknown.</p>
 <p class=""ql-align-justify"">Sunrise Homes is introducing SoBa Towns. Timeless traditional designs, stylish modern features, spacious open concept living, bright, airy interiors, stunning finishes and meticulous attention to detail. Perfect for young growing professionals, families and right sizers, SOBA South Barrie Towns is an ideal investment opportunity.</p>
@@ -756,8 +756,8 @@ https://precondo.ca/soba-south-barrie-towns/,SOBA – South Barrie Towns,"Patter
 <p class=""ql-align-justify"">Sunrise Homes is a prime real estate developer in Canada. Each opportunity features the perfect location, quality craftsmanship and elegant designs. They strive to deliver the best residential and commercial real estate across Ontario. Currently, another investment opportunity by Sunrise is Bond Head in Ontario.</p>
 <p>Stay tuned to Precondo.ca for the latest updates on pre-construction condominiums in Barrie (https://precondo.ca/new-condos-barrie/).</p>
 Read More (javascript:void(0))
-</div>",tba,N/A,N/A,Sunrise
-https://precondo.ca/horseshoe-residences/,Horseshoe Residences,"1101 Horseshoe Valley Road West, Barrie, ON",44.549737,-79.6717677,Canada,"$ 544,900+","['BarCafeCycle FriendlyFitness FacilitiesGardenSkiing', 'Snow TubingLakeTreetop TrekkingParksPutting GreenRestaurant', 'ShoppingSpaLaundry RoomStorage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-ResidencesMain1Featured.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences6.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences5.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences4.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences3.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences2.png']","<div class=""description__box short mt-3"">
+",tba,,,Sunrise,,Register Now,Register Now,,$ 805 / sqft,,,,,,TBA,,
+https://precondo.ca/horseshoe-residences/,Horseshoe Residences,"1101 Horseshoe Valley Road West, Barrie, ON",44.549737,-79.6717677,barrie,Canada,"$ 544,900+","['BarCafeCycle FriendlyFitness FacilitiesGardenSkiing', 'Snow TubingLakeTreetop TrekkingParksPutting GreenRestaurant', 'ShoppingSpaLaundry RoomStorage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-ResidencesMain1Featured.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences6.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences5.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences4.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences3.png', 'https://precondo.ca/wp-content/uploads/2022/10/Horseshoe-Residences2.png']","
 <h2 class=""widgettitle"">About Horseshoe Residences Development</h2>
 <p>Horseshoe Residences is a new condo development that is currently in the pre construction phase by Freed Developments, located at 1101 Horseshoe Valley Road West, Barrie, ON. This project features a mid-rise building of 7 storeys with a total of 183 condo units. The estimated completion date for occupancy of this property is 2025.</p>
 <p>Freed Hotels Resorts &amp; team is bringing a classic collection of condos in Horseshoe Resort to the heart of Barrie. The designers are proposing aesthetically pleasing exteriors with luxurious interiors &amp; lifestyle hubs. Each resort unit will also have plenty of modern urban features &amp; finishes. Alongside this, future residents will also have easy access to major urban conveniences.</p>
@@ -778,8 +778,8 @@ https://precondo.ca/horseshoe-residences/,Horseshoe Residences,"1101 Horseshoe V
 <p>Coming soon with the biggest condominium ownership, register with our realtor &amp; explore all the necessary details!</p>
 <p>See more condos in Barrie, ON (https://precondo.ca/new-condos-barrie/).</p>
 Read More (javascript:void(0))
-</div>",2025,195,7,Freed
-https://precondo.ca/spring-valley-estates-homes/,Spring Valley Estates Homes,"1328 Queen Street West,  Brampton,   ON",43.6602769,-79.7892919,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-5.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-interior-bedroom-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-interior-kitchen-and-dining-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-site-plan.jpg']","<div class=""description__box short mt-3"">
+",2025,195,7,Freed,,"$ 622,900","$ 1,029,900","$ 1,390",$ 805 / sqft,"Studio, 1 Bed, 1+Den - $10,000 + HST; Two Bed - $15,000 + HST",,,Yes,,TBA,$ 1450 / sqft,"BRAND NEW SUITE RELEASE, BRAND NEW CLIENT INCENTIVES⚫ 2 Year Rental Guarantee (Valued Up To $50,000!!)○ $20,000/year for studios○ $25,000/year for one bedrooms⚫ Turnkey Furniture Package & Window Coverings Included (Valued Up To $30,000)⚫ Parking Included With Each Suite (Value Of $20,000)⚫Yearly Family Ski & Bike PassDon’t wait until closing, and start using your ski & bike pass upon firming!⚫ Capped Development Charges⚫ Extended Deposit Structure⚫ Free Assignment⚫ Free Right To Lease During Interim Occupancy⚫ All Units are Eligible For Access To The Horseshoe Valley Resort Rental Accommodations ProgramDate: Oct 1, 2024"
+https://precondo.ca/spring-valley-estates-homes/,Spring Valley Estates Homes,"1328 Queen Street West,  Brampton,   ON",43.6602769,-79.7892919,brampton,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-4.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view-5.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-exterior-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-interior-bedroom-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-interior-kitchen-and-dining-area.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Spring-Valley-Estates-Homes-site-plan.jpg']","
 <h2 class=""widgettitle"">About Spring Valley Estates Homes Development</h2>
 <p>Spring Valley Estates Homes is a new homes development that is currently in the pre-construction phase by Pearl Valley Homes Inc., located at 1328 Queen St W, Brampton, ON offers luxury detached homes designed for modern living. This project’s estimated completion date is still unknown.</p>
 <h2>Key Takeaways</h2>
@@ -884,8 +884,8 @@ https://precondo.ca/spring-valley-estates-homes/,Spring Valley Estates Homes,"13
 <p>Spring Valley Estates effectively caters to family needs by providing access to schools, parks, and recreational areas, fostering a strong sense of community along with various family-friendly activities. This design ensures a supportive environment for families to thrive.</p>
 <p>Looking for more options? Explore more new condo developments in Brampton. (https://precondo.ca/new-condos-brampton/)</p>
 Read More (javascript:void(0))
-</div>",tba,36,N/A,Pearl
-https://precondo.ca/arbor-west-homes/,Arbor West Townhomes,"10024 Mississauga Rd, Brampton",43.6669703,-79.8306895,Canada,"From $1,464,990 - $2,259,990",,"['https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Exterior-View3.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Exterior-View2.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Exterior-View3.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Kitchen.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Loft-Entertainment-Space.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Living-Room.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Chefs-center.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Bedroom.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Spa-Inspired-Ensuite-Bathroom.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Community-Outdoor-Space.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Map-View-of-Project-Location.jpg']","<div class=""description__box short mt-3"">
+",tba,36,,Pearl,,Register Now,Register Now,,$ 843 / sqft,,,,,,,,
+https://precondo.ca/arbor-west-homes/,Arbor West Townhomes,"10024 Mississauga Rd, Brampton",43.6669703,-79.8306895,brampton,Canada,"From $1,464,990 - $2,259,990",,"['https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Exterior-View3.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Exterior-View2.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Exterior-View3.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Kitchen.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Loft-Entertainment-Space.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Living-Room.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Chefs-center.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Bedroom.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Spa-Inspired-Ensuite-Bathroom.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Community-Outdoor-Space.jpg', 'https://precondo.ca/wp-content/uploads/2024/06/Arbor-West-Homes-Map-View-of-Project-Location.jpg']","
 <h2 class=""widgettitle"">About Arbor West Townhomes Development</h2>
 <p>Imagine living in a master-planned community, designed to perfection, and nestled in the vibrant city of Brampton. A place where modern architecture, lush green spaces, nearby parks, and a prime location come together to create an urban oasis for you and your family. Introducing Arbor West Homes, a highly anticipated residential development that promises an unparalleled living experience.</p>
 <p>Prices start from from $1,464,990 – $2,259,990.</p>
@@ -982,8 +982,8 @@ https://precondo.ca/arbor-west-homes/,Arbor West Townhomes,"10024 Mississauga Rd
 <p>The Arbor West Homes neighbourhood has a Walk Score of 9 out of 100, indicating that it is car dependent and many errands require a vehicle.</p>
 <p>For similar listings, please check our Brampton new condos (https://precondo.ca/new-condos-brampton/) page.</p>
 Read More (javascript:void(0))
-</div>",2025,133,3,Caivan
-https://precondo.ca/bodhi-townhome-living/,Bodhi Townhome Living,"0 Ebenezer Road,  Brampton,   ON",43.7815,-79.65702,Canada,"$ 999,990+","['Laundry Room', 'Storage Room', 'Dining Area']","['https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-View-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-View-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-View.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-upper-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Interior-Kitchen-Area.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Interior-Living-Area.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Living-Area-design-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Living-Area-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Site-Plan.jpg']","<div class=""description__box short mt-3"">
+",2025,133,3,Caivan,"From $1,464,990 - $2,259,990","$1,099,990",Register Now,$512/sqft,$ 843 / sqft,,,,,,"31′ Singles$40,000 in Signing$30,000 in 60 Days$30,000 in 120 Days$20,000 in 180 Days$20,000 in 240 Days(Total: $140,000)42′ Singles$40,000 in Signing$30,000 in 60 Days$30,000 in 120 Days$30,000 in 180 Days$45,000 in 240 Days(Total: $175,000)50′ Singles$40,000 in Signing$40,000 in 60 Days$40,000 in 120 Days$40,000 in 180 Days$40,000 in 240 Days(Total: $200,000)",,$0 Development ChargesFree Assignment
+https://precondo.ca/bodhi-townhome-living/,Bodhi Townhome Living,"0 Ebenezer Road,  Brampton,   ON",43.7815,-79.65702,brampton,Canada,"$ 999,990+","['Laundry Room', 'Storage Room', 'Dining Area']","['https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-View-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-View-1.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-View.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Exterior-upper-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Interior-Kitchen-Area.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Interior-Living-Area.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Living-Area-design-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Living-Area-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/07/Bodhi-Townhome-Site-Plan.jpg']","
 <h2 class=""widgettitle"">About Bodhi Townhome Living Development</h2>
 <p>Bodhi Townhome Living is a new home development that is currently in the pre-construction phase by CountryWide Homes, located at 0 Ebenezer Rd, Brampton, ON. Bodhi Townhome Living offers a modern design, a prime location, and excellent amenities for a comfortable lifestyle. This project’s estimated completion date is still unknown.</p>
 <h2>Key Takeaways</h2>
@@ -1065,8 +1065,8 @@ https://precondo.ca/bodhi-townhome-living/,Bodhi Townhome Living,"0 Ebenezer Roa
 <p>Its approach to building communities involves creating masterfully planned communities with quality craftsmanship and attention to detail, ultimately aiming to offer the finest homes within vibrant, thriving communities. This approach is designed to ensure customer satisfaction and a premium living experience for residents.</p>
 <p>Stay tuned at Precondo for the latest updates on new condos in Brampton. (https://precondo.ca/new-condos-brampton/)</p>
 Read More (javascript:void(0))
-</div>",tba,95,10,CountryWide
-https://precondo.ca/citypointe-heights-condos/,CityPointe Heights Condos,"The Gore Road & Queen Street East, Brampton, ON",43.7659,-79.65561,Canada,"$ 794,990+","['Fitness CentreCoworking SpaceLoungeDining RoomRooftop Terrace With Outdoor BBQ Area', 'Lobby LoungeCoffee BarFitness StudioYoga StudioGames Room', 'BarResidents LoungeLaundry RoomStorage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2022/05/Citypointe-HeightsMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights2.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights3.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights4.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights5.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights6.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights7.png', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights8.jpg']","<div class=""description__box short mt-3"">
+",tba,95,10,CountryWide,,,,$ 683,$ 843 / sqft,,,,No,,,,
+https://precondo.ca/citypointe-heights-condos/,CityPointe Heights Condos,"The Gore Road & Queen Street East, Brampton, ON",43.7659,-79.65561,brampton,Canada,"$ 794,990+","['Fitness CentreCoworking SpaceLoungeDining RoomRooftop Terrace With Outdoor BBQ Area', 'Lobby LoungeCoffee BarFitness StudioYoga StudioGames Room', 'BarResidents LoungeLaundry RoomStorage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2022/05/Citypointe-HeightsMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights2.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights3.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights4.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights5.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights6.jpg', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights7.png', 'https://precondo.ca/wp-content/uploads/2022/05/Citypointe-Heights8.jpg']","
 <h2 class=""widgettitle"">About CityPointe Heights Condos Development</h2>
 <p>CityPointe Heights Condos is a new condo development that is currently in the pre construction phase by Poetry Living, located at The Gore Road &amp; Queen Street East, Brampton, ON. This project is bringing a luxurious high-rise building of 35 storeys with a total of 658 condo units. The estimated completion date for occupancy for this property is still unknown.</p>
 <p>The designers of Turner Fleischer Architects and Figure3 are responsible for the architectural renderings of this new condominium community. They are proposing sleek designs for the exteriors and elevated interiors for CityPointe Heights Condos.</p>
@@ -1086,8 +1086,8 @@ https://precondo.ca/citypointe-heights-condos/,CityPointe Heights Condos,"The Go
 <p>So far, they are responsible for building one of the finest residential as well as commercial projects in Ontario. Besides CityPointe Heights condos in Brampton, they are also developing Ellis Lane -Phase 2 and other communities in the most loved cities of Toronto.</p>
 <p>Check out more new home developments in Brampton (https://precondo.ca/new-condos-brampton/).</p>
 Read More (javascript:void(0))
-</div>",2025,658,35,Poetry
-https://precondo.ca/duo-condos/,Duo Condos,"245 Steeles Ave W, Brampton, ON",43.65992,-79.73904,Canada,"$ 589,990+","['Rooftop TerraceChefs KitchenBarFire PitOutdoor BBQ Dining SpacesYoga Studio', 'Meditation RoomFitness ClubLobby LoungeConcierge ServiceKids Play RoomRooftop Lounge', 'Co Working SpacesLaundry RoomStorage RoomDining Area']",['https://precondo.ca/wp-content/uploads/2021/11/Duo-CondosMain1Featured.jpg'],"<div class=""description__box short mt-3"">
+",2025,658,35,Poetry,,,"$ 794,990","$ 1,135",$ 843 / sqft,"Capped Development Charges at $10,000",,$ 52.98,No,$ 5000,TBA,$ 1137 / sqft,"FOR YOUR CLIENTSDiscounted Assignment FeeCurrent Fee: $5,000Legal & Administration fees are additional+Right to Lease During Interim Occupancy$3,000 Fee, additional legal fees may apply+Capped Development Charges at $10,000+1 FREE Parking** ($50,000 Value)+LockerBelow Grade Locker: $5,000 + HSTAbove Grade Locker: $7,500 + HSTDate: May 25, 2022"
+https://precondo.ca/duo-condos/,Duo Condos,"245 Steeles Ave W, Brampton, ON",43.65992,-79.73904,brampton,Canada,"$ 589,990+","['Rooftop TerraceChefs KitchenBarFire PitOutdoor BBQ Dining SpacesYoga Studio', 'Meditation RoomFitness ClubLobby LoungeConcierge ServiceKids Play RoomRooftop Lounge', 'Co Working SpacesLaundry RoomStorage RoomDining Area']",['https://precondo.ca/wp-content/uploads/2021/11/Duo-CondosMain1Featured.jpg'],"
 <h2 class=""widgettitle"">About Duo Condos Development</h2>
 <p class=""ql-align-justify"">Duo Condos is a new condo development that is currently in the pre construction phase by National Homes and Brixen Developments Inc., located at 245 Steeles Ave W, Brampton, ON. This project is bringing luxurious two high-rise buildings of 26 storeys with approximately 800 condo units. The estimated completion date for occupancy for this property is still unknown.</p>
 <p class=""ql-align-justify"">Meticulously crafted by the best Canadian developers, this development is coming soon to the family-oriented neighbourhood of the city. This two-tower development will feature striking exterior and interior designs that will match the beauty of the city.</p>
@@ -1110,8 +1110,8 @@ https://precondo.ca/duo-condos/,Duo Condos,"245 Steeles Ave W, Brampton, ON",43.
 <p>Brixen Developments Inc. is a progressive real estate developer &amp; builder with decades of building experience in Canada. Since its inception, they have built a diverse portfolio including residential as well as commercial projects. Besides Duo Condos, they are also developing South District Condominium in Barrie city of Ontario.</p>
 <p>To explore other new homes around Brampton (https://precondo.ca/new-condos-brampton/), send a request or contact our real estate agent today!</p>
 Read More (javascript:void(0))
-</div>",2025,349,26,National
-https://precondo.ca/amira-estates-homes/,Amira Estates Homes,"2902 Countryside Dr, Brampton, ON",43.7822849,-79.7503332,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2024/04/01-45.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-33.jpg']","<div class=""description__box short mt-3"">
+",2025,349,26,National,"$ 589,990 - $ 1,099,900","$ 589,990","$ 976,900","$ 1,140",$ 843 / sqft,"$10,000 for all suites",$ 45000,$ 69.95,No,$ 5000,,$ 1166 / sqft,"Duo Condos & Towns - IncentivesUp to $45,000 in Suite Price Savings*$0 Development ChargesFREE AssignmentFREE Right to Lease During Occupancy** Legal & Admin Fees OnlyDate: Nov 2, 2024"
+https://precondo.ca/amira-estates-homes/,Amira Estates Homes,"2902 Countryside Dr, Brampton, ON",43.7822849,-79.7503332,brampton,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/04/01-45.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-33.jpg']","
 <h2 class=""widgettitle"">About Amira Estates Homes Development</h2>
 <p>Amira Estates Homes is a new home development that is currently in the pre-construction phase by Treasure Hill Homes, located at 2902 Countryside Dr, Brampton ON. Amira Estates Homes offer just that, with 65 selectively designed estate homes nestled in Upper Brampton’s peaceful ambiance and a perfect location for Treasure Hill’s Amira community where estate homes stand graciously. This project’s estimated completion date is still unknown.</p>
 <h2>Key Takeaways</h2>
@@ -1207,8 +1207,8 @@ https://precondo.ca/amira-estates-homes/,Amira Estates Homes,"2902 Countryside D
 <p>The homes are in range from 2,082 to 5,377 sq.ft, with some extending up to 5,541 sq.ft, and each home features a 3-car garage.</p>
 <p>Look at more new condo developments in Brampton (https://precondo.ca/new-condos-brampton/).</p>
 Read More (javascript:void(0))
-</div>",tba,65,2,Treasure
-https://precondo.ca/amber-woods/,Amber Woods,"11213 Creditview Road, Brampton, ON",43.69813,-79.84811,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2021/03/Amber-WoodsMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods5.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods4.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods3.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods2.jpg']","<div class=""description__box short mt-3"">
+",tba,65,2,Treasure,,Register Now,Register Now,,$ 843 / sqft,,,,,,,,
+https://precondo.ca/amber-woods/,Amber Woods,"11213 Creditview Road, Brampton, ON",43.69813,-79.84811,brampton,Canada,,,"['https://precondo.ca/wp-content/uploads/2021/03/Amber-WoodsMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods5.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods4.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods3.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Amber-Woods2.jpg']","
 <h2 class=""widgettitle"">About Amber Woods Development</h2>
 <p class=""ql-align-justify"">Amber Woods is a new townhouse and single family home development that is currently in the pre construction phase by Stanford Homes, located at 11213 Creditview Road, Brampton, ON. This project will feature a limited collection of 18 units in a low rise building of 2 storeys. The estimated completion date for occupancy for this property is still unknown.</p>
 <p class=""ql-align-justify"">This community of Amber Woods will feature striking architectural designs throughout the building. Every buyer will find everything they desire in Amber Woods. Also, being in a highly sought after location of the city, residents will be living a convenient life with numerous amenities and luxuries nearby.</p>
@@ -1227,8 +1227,8 @@ https://precondo.ca/amber-woods/,Amber Woods,"11213 Creditview Road, Brampton, O
 <p class=""ql-align-justify"">Stanford Homes is the finest real estate builder with more than 60 years of experience. For four generations of prominent craftsmanship, they have developed more than 10,000 homes for sale and rent throughout the GTA. Some other project listings by them include The Ravines of Credit Woods and 400 Front Street Condos which are also in selling phase.</p>
 <p class=""ql-align-justify"">Stay tuned at Precondo for the latest updates on pre-construction condos in Brampton (https://precondo.ca/new-condos-brampton/).</p>
 Read More (javascript:void(0))
-</div>",tba,N/A,N/A,Stanford
-https://precondo.ca/cadillac-on-credit/,Cadillac on Credit,"10783 Creditview Road, Brampton, ON",43.692483,-79.83994,Canada,N/A,,"['https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-CreditMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit15.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit14.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit13.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit12.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit11.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit10.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit9.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit8.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit7.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit6.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit5.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit4.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit3.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit2.png']","<div class=""description__box short mt-3"">
+",tba,,,Stanford,,Register Now,Register Now,,$ 843 / sqft,,,,,,"$20,000 with Offer$30,000 in 30 days$30,000 in 60 days",,
+https://precondo.ca/cadillac-on-credit/,Cadillac on Credit,"10783 Creditview Road, Brampton, ON",43.692483,-79.83994,brampton,Canada,,,"['https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-CreditMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit15.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit14.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit13.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit12.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit11.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit10.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit9.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit8.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit7.png', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit6.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit5.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit4.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit3.jpg', 'https://precondo.ca/wp-content/uploads/2022/09/Cadillac-on-Credit2.png']","
 <h2 class=""widgettitle"">About Cadillac on Credit Development</h2>
 <p>Cadillac On Credit is a new single-family home development that is currently in the pre construction phase by Marina Group Canada, located at 10783 Creditview Road, Brampton, ON. This project features a beautiful yet intimate collection of only 8 units. The estimated completion date for occupancy of this property is 2023.</p>
 <p>With an excellent team of designers, this development is bringing modern living space with modern infrastructure to a small haven. A place you can call home will also offer aesthetic views, pronoun features and striking features.</p>
@@ -1252,8 +1252,8 @@ https://precondo.ca/cadillac-on-credit/,Cadillac on Credit,"10783 Creditview Roa
 <p>So far, they have developed a wide array of residential projects across Ontario.</p>
 <p>So, get in touch with Precondo to explore new condos in Brampton, ON (https://precondo.ca/new-condos-brampton/), and all the necessary details such as price range, sale &amp; others!</p>
 Read More (javascript:void(0))
-</div>",2023,N/A,N/A,Marina
-https://precondo.ca/490-plains-road-east-condos/,Northshore Condos,490 Plains Road East Burlington ON,43.3181481,-79.8358946,Canada,"$ 593,490+","['EV ChargingLockers', 'Dog Wash AreaLaundry Room', 'Storage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-4.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-3.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-2.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-1.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos.png']","<div class=""description__box short mt-3"">
+",2023,,,Marina,,Register Now,Register Now,,$ 843 / sqft,,,,,,"$40,000 due on Signing$40,000 due in 60 Days$40,000 due in 105 Days$40,000 due in 150 Days",,
+https://precondo.ca/490-plains-road-east-condos/,Northshore Condos,490 Plains Road East Burlington ON,43.3181481,-79.8358946,burlington,Canada,"$ 593,490+","['EV ChargingLockers', 'Dog Wash AreaLaundry Room', 'Storage RoomDining Area']","['https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-4.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-3.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-2.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos-1.png', 'https://precondo.ca/wp-content/uploads/2021/04/northshore-condos.png']","
 <h2 class=""widgettitle"">About Northshore Condos Development</h2>
 <p class=""ql-align-justify"">North Shore Condos is a new condo and townhouse development that is currently in the pre construction phase by National Homes, located at 490 Plains Road East Burlington ON. This real estate project will house a mid rise building of 8 storeys with 153 units. The estimated completion date for occupancy for this property is 2025.</p>
 <p class=""ql-align-justify"">National Homes has teamed up with Kirkor Architect + Planners for the architectural designs of this project. With striking and stylish designs, each element will lure all kinds of families and working professionals.</p>
@@ -1275,4 +1275,489 @@ https://precondo.ca/490-plains-road-east-condos/,Northshore Condos,490 Plains Ro
 <p class=""ql-align-justify"">Stay tuned to the latest updates on the condo and townhouse development at 490 Plains Road East Burlington ON.</p>
 <p>Stay tuned at Precondo for the latest updates on pre-construction condos in Burlington (https://precondo.ca/new-condos-burlington/).</p>
 Read More (javascript:void(0))
-</div>",2025,153,8,National
+",2025,153,8,National,"$ 593,490 - $ 1,008,990","$ 656,990","$ 841,990","$ 1,094",$ 974 / sqft,"$10,000 Capped Development Charges",$ 45000,$ 69.95,No,$ 5000,$5000 Bank Draft on SigningBalance to 5% in 30 Days5% on Occupancy,$ 1123 / sqft,
+https://precondo.ca/northshore-towns/,Northshore Towns,"490 Plains Road East, Burlington ON",43.3181481,-79.8358946,burlington,Canada,"$ 754,990+",,"['https://precondo.ca/wp-content/uploads/2024/10/The-Northshore-Towns-exterior-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/10/Northshore-Towns-interior-kitchen-area-2.jpg']","
+<h2 class=""widgettitle"">About Northshore Towns Development</h2>
+<p>Northshore Towns is a new town development that is currently in the pre-construction phase by National Homes, located at 490 Plains Road East, Burlington ON. Northshore Towns offers an attractive investment opportunity with exclusive incentives, location benefits, recreational facilities, urban amenities, and customizable options for early buyers. This project’s estimated completion date is 2025.</p>
+<h2>Key Takeaways</h2>
+<ul>
+<li>Northshore Towns offers an attractive investment opportunity with exclusive incentives, including a low deposit structure and customizable options for early buyers.</li>
+<li>The strategic location in Burlington provides residents with easy access to major transport routes, numerous schools, recreational facilities, and urban amenities.</li>
+<li>National Homes is recognized for its commitment to quality and innovation, ensuring that Northshore Towns exemplifies modern living combined with sustainable practices.</li>
+</ul>
+<h2>Prime Location at Plains Rd E Burlington</h2>
+<p>Northshore Towns at 490 Plains Rd E Burlington is strategically situated at the intersection of King Rd and Plains Rd E, offering seamless connectivity to major transport routes, including Highway 403, 407, QEW, and the Burlington GO Station. Whether commuting to downtown Hamilton, Toronto, or Niagara, you’re always well-connected.</p>
+<p>Families will benefit from proximity to over 60 schools, offering a variety of educational options for children of all ages. Golf enthusiasts can enjoy the nearby Burlington Golf and Country Club, featuring scenic views and a top-tier course.</p>
+<p>Residents have access to various recreational facilities, including the Burlington Sailing &amp; Boating Club and the Salle Park and Marina, ideal for water activities. With downtown Burlington and Hamilton just a short drive away, you can enjoy serene living with urban amenities close by.</p>
+<p>Nearby parks like Leighland Park and Maple Park provide green spaces for relaxation and outdoor activities. Burlington Beach and Burlington Bay are just minutes away, offering picturesque spots for weekend getaways and family outings at Leighland Park Burlington Beach.</p>
+<h2>Modern Living in North Shore Community</h2>
+<p>The North Shore community in Burlington combines modern living with natural beauty. This boutique condo development features a contemporary urban design and abundant green space providing residents with a sleek and stylish environment.</p>
+<p>The architecture and interior designs are crafted for both comfort and aesthetic appeal. A standout feature of the North Shore community is its walkable access to amenities.</p>
+<p>Imagine stepping out of your front door with parks, shops, and public transit just a few steps away. This walkability adds convenience and promotes a healthier, more active lifestyle.</p>
+<p>Green living is a key aspect of Northshore Condos, with numerous nature trails and parks encouraging outdoor activities and fostering community engagement. Here, you’re always connected to nature without compromising urban conveniences.</p>
+<h2>National Homes: Building Excellence</h2>
+<p>National Homes is known for building excellence, and Northshore Towns exemplifies their commitment to quality. Founded in 1992, National Homes has constructed over 15,000 homes, establishing a strong presence in the real estate market. Their success in the Greater Toronto Area (GTA) reflects their dedication to high-quality developments.</p>
+<p>National Homes stand out with their innovative approach, driven by extensive customer surveys to understand and incorporate buyer preferences. This customer-centric method ensures each home meets the highest standards of functionality and design.</p>
+<p>Having developed over 20,000 acres of land and focusing on expanding in the high-rise market, National Homes continues to push the boundaries of excellence. Choosing a home built by National Homes means opting for a legacy of quality, innovation, and customer satisfaction.</p>
+<h2>Nearby Attractions and Amenities</h2>
+<p>Living in Northshore Towns places a plethora of attractions and amenities at your doorstep. Burlington Beach, La Salle Park, and the Burlington Golf and Country Club are just minutes away, offering various recreational activities.</p>
+<p>These locations provide scenic views and outdoor activities, ideal for family outings and leisurely weekends. Burlington boasts eight waterfront parks, each offering unique recreational opportunities and breathtaking views.</p>
+<p>The 3.5 km off-rd E Burlington trail along the waterfront is perfect for walking and cycling, promoting a healthy and active lifestyle. For cultural experiences, the Marina Art Gallery showcases local artists and hosts various art exhibitions, adding a touch of culture to the community.</p>
+<p>Nearby grocery stores and fitness facilities ensure all your daily needs are met without having to travel far. Retail centers like Mapleview Shopping Centre offer a variety of shopping, dining, and entertainment options, making it easy to enjoy a vibrant lifestyle.</p>
+<p>Whether seeking a peaceful park, a bustling shopping center, or a serene beach, Northshore Towns has it all.</p>
+<h2>Lifestyle at Northshore Towns</h2>
+<p>The lifestyle at Northshore Towns is vibrant and convenient. The area surrounding Northshore Condos includes various walkable amenities such as restaurants, supermarkets, and retail stores, enhancing urban living convenience.</p>
+<p>Everything you need is just a short walk away, simplifying daily life. Golf enthusiasts will appreciate the Burlington Golf and Country Club, featuring a scenic course and top-tier facilities.</p>
+<p>The combination of shops burlington golf and leisure activities creates a dynamic and lively environment for residents. Living at Northshore Towns provides easy access to numerous local amenities and shops, ensuring daily errands are always convenient.</p>
+<p>This community offers an enriched lifestyle with something for everyone.</p>
+<h2>Stunning Views and Outdoor Spaces</h2>
+<p>Stunning views and outdoor spaces are some of the most compelling aspects of life at Northshore Towns. LaSalle Park features well-maintained trails for walking and biking, making it a fantastic spot for outdoor recreation.</p>
+<p>The park also includes playgrounds, picnic areas, and seasonal water amenities, catering to families and outdoor enthusiasts alike. Bayshore Park offers beautiful lakeside views and recreational areas, providing a serene retreat from urban life. Burlington Bay, with its opportunities for fishing and leisure activities along the waterfront, adds another layer of outdoor enjoyment near Lake Ontario.</p>
+<p>From the views of Burlington Bay to the picturesque Burlington Golf and Country Club, Northshore Towns offers a visual feast. These outdoor spaces enhance the community’s aesthetic appeal and encourage a healthy, active lifestyle.</p>
+<h2>Connectivity and Convenience</h2>
+<p>Connectivity and convenience are key features of life at Northshore Towns. The development is well-served by Burlington Transit and the nearby Aldershot GO Station, making commutes to Hamilton, Oakville, Niagara, and downtown Toronto easy.</p>
+<p>Residents can easily access public transportation options, including nearby bus routes and the Burlington GO Station for train travel. Proximity to major roadways like King Rd enhances commuting ease, allowing residents to quickly reach major transportation routes.</p>
+<p>Whether heading to work or exploring the city, you’re always well-connected. The North Shore area’s well-connected infrastructure allows residents to enjoy the benefits of both urban and suburban living, with everything they need within easy reach.</p>
+<h2>Local Dining and Entertainment</h2>
+<p>The local dining and entertainment options near Northshore Towns are diverse and delightful. Mapleview Mall and downtown Burlington are just a short drive away, offering a variety of local shops and dining options.</p>
+<p>Whether in the mood for casual dining or upscale cuisine, Burlington’s vibrant dining scene has something to offer. Popular dining spots like The Keg Steakhouse &amp; Bar, Radius on Brant, and Isabelle Restaurant &amp; Lounge provide a range of culinary experiences, from expertly grilled steaks to Mediterranean-inspired dishes.</p>
+<p>For special occasions, Spencer’s at the Waterfront offers stunning views and a menu highlighting seasonal and local ingredients. Casual dining options like Burro and Earls Kitchen + Bar offer a fun and relaxed atmosphere, perfect for social gatherings and casual meals.</p>
+<p>With a variety of dining and entertainment options, residents of Northshore Towns will always have something new to explore.</p>
+<h2>Sustainable and Green Living</h2>
+<p>Sustainability is a cornerstone of the Northshore Towns development. The Paradigm Grand condominium aims for LEED® certification, aligning with eco-friendly practices.</p>
+<p>The first phase of the Paradigm development achieved LEED® Silver accreditation, showcasing a commitment to environmental sustainability. New condo developments in Burlington often incorporate energy-efficient systems, reducing utility costs and environmental impact.</p>
+<p>Using sustainable materials in construction promotes eco-friendly living, ensuring your home is both beautiful and environmentally responsible. Developments in Burlington increasingly feature recycling and waste management systems to support sustainable practices.</p>
+<p>Green spaces like La Salle Park and Burlington Beach are conveniently located near the community, providing ample opportunities for eco-friendly recreation.</p>
+<h2>Summary</h2>
+<p>In conclusion, Northshore Towns, a new condo development developed by National Homes located at 490 Plains Road East, offers an unparalleled living experience and abundant green space with its exclusive offers, prime location, modern design, and extensive amenities. Whether you’re drawn by the stunning views, the vibrant lifestyle, or the sustainable living practices, Northshore Towns by National Homes presents a perfect blend of luxury and convenience. Explore this exceptional community and find your dream home today.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>How accessible is Northshore Towns in terms of transportation?</h3>
+<p>Northshore Towns offers excellent accessibility, being conveniently situated near major transport routes such as Highway 403, 407, QEW, and the Burlington GO Station, facilitating easy travel to Hamilton, Oakville, Niagara, and downtown Toronto. This strategic location enhances commute efficiency for residents.</p>
+<h3>What amenities are available in the North Shore community?</h3>
+<p>The North Shore community provides a variety of amenities such as parks, public transit, shops, restaurants, nature trails, and green living features, ensuring a convenient and enriched lifestyle for residents.</p>
+<h3>Who is the builder behind Northshore Towns?</h3>
+<p>The builder behind Northshore Towns is National Homes, renowned for their quality and customer satisfaction, with over 15,000 homes built since their founding in 1992.</p>
+<h3>What sustainable and green living features are included in Northshore Towns?</h3>
+<p>Northshore Towns features energy-efficient systems, sustainable materials, and effective recycling and waste management systems, with developments like Paradigm Grand seeking LEED® certification to enhance eco-friendly living. These elements collectively contribute to a more sustainable lifestyle for residents.</p>
+<h3>What activities or attractions are available at Northshore Towns?</h3>
+<p>Northshore Towns has Maple Park, Bayshore Park, Lasalle Park, shops Burlington Golf, Leighland Park Burlington Beach, and Lake Ontario.</p>
+<p>Find out more pre-construction condos in Burlington. (https://precondo.ca/new-condos-burlington/)</p>
+Read More (javascript:void(0))
+",2025,153,8,National,,Register Now,"$754,990",,$ 974 / sqft,,,,,,,,
+https://precondo.ca/1989-condos/,1989 Condos,"1989 Appleby Line, Burlington ON.",43.3939225,-79.7888491,burlington,Canada,"$ 498,999+","['Outdoor Amenity LoungeBike ParkingConcierge Service', 'Work Space LoungePrivate Dining RoomParcel Room', 'Childrens Outdoor Play Area']",['https://precondo.ca/wp-content/uploads/2024/02/1989-condos.jpg'],"
+<h2 class=""widgettitle"">About 1989 Condos Development</h2>
+<p>1989 Condos is a new condo development that is currently in the pre-construction phase by Latch Developments, located at 1989 Appleby Line, Burlington, ON. 1989 Condos combines the ease of city living with the comforts of modern design. This project’s estimated completion date is still unknown.</p>
+<h2>Key Takeaways</h2>
+<ul>
+<li>1989 Appleby Line Condos is a twin-tower, mixed-use development in Burlington with 475 residential units and accessible urban amenities like retail spaces, transportation links, and recreational areas.</li>
+<li>Latch Developments is leading the 1989 Appleby Line Condos project, known for integrating innovative designs and contemporary living, with a commitment to creating a comprehensive urban living experience.</li>
+<li>Prospective residents can look forward to exclusive condo amenities, a pedestrian-friendly environment, and proximity to cultural and recreational attractions, with sales expected to start in 2024.</li>
+</ul>
+<h2>Experience Urban Living at 1989 Appleby Line Condos</h2>
+<p>Nestled in the heart of Uptown Burlington, 1989 Appleby Line Condos is an upcoming residential located at Appleby Line &amp; Upper Middle Rd that aims to redefine urban living. The development is an exciting blend of living spaces, ground floor retail spaces, and a substantial urban presence, thanks to its innovative design.</p>
+<p>Two interconnected 20-storey residential towers make up for accommodating the latest urban lifestyle through their innovative design. Residents will significantly enhance their living experience due to the condos’ location, which offers easy access to a variety of urban amenities such as:</p>
+<ul>
+<li>Shopping malls</li>
+<li>Restaurants and cafes</li>
+<li>Parks and recreational areas</li>
+<li>Schools and universities</li>
+<li>Public transportation</li>
+</ul>
+<h3>Location and Neighbourhood Highlights</h3>
+<p>Situated a short drive from Appleby Crossing and RioCan Centre Burloak, the residents of 1989 Condos are placed at the heart of a bustling neighbourhood. A host of shopping and employment opportunities await the residents, making urban living a breeze.</p>
+<p>The location doesn’t just cater to shoppers and professionals. Foodies will find themselves spoilt for choice, with a diverse range of dining options in the vicinity.</p>
+<p>From casual dining at Chuck’s Roadhouse Bar &amp; Grill to fast food joints like Subway and Popeyes, there’s something for every palate.</p>
+<h3>Accessibility and Transportation</h3>
+<p>Seamless connectivity to major highways is a key advantage of the 1989 Appleby Line Condos. Here are some transportation options nearby:</p>
+<ul>
+<li>A short 5-minute drive will have you on Highway 403</li>
+<li>The 407 is also close by</li>
+<li>For those relying on public transport, the Burlington and Appleby GO stations are within a 10-13 minute drive, offering 30-minute train commutes to major city centers.</li>
+</ul>
+<p>Local bus services operated by Burlington Transit are accessible at the Upper Middle Rd bus stop near Appleby Line, ensuring residents can easily navigate the city. 1989 Appleby Line Condos, with its impressive accessibility to the upper middle road area, becomes an ideal choice for those seeking a prime location with convenient transportation options.</p>
+<h2>Latch Developments: The Visionary Behind 1989 Appleby Line Condos</h2>
+<p>Latch Residential Developments, known for crafting distinctive urban projects that enhance city living, is the visionary behind the 1989 Appleby Line Condos. The developer’s commitment to enhancing urban life is evident in their plan for the 1989 Appleby Line Condos.</p>
+<p>Latch Developments has proposed a development that includes:</p>
+<ul>
+<li>Two 20-storey residential buildings, connected by a shared 6-storey podium</li>
+<li>At-grade retail space on a former gas station site</li>
+<li>475 residential units</li>
+<li>871m2 of commercial retail space</li>
+<li>502 parking spaces for vehicles</li>
+<li>304 bicycle parking spots</li>
+</ul>
+<p>This development aims to provide a harmonious blend of comprehensive living experiences for future residents in the exciting new condominium community.</p>
+<h3>Founder Marc Nufrio’s Experience</h3>
+<p>Marc Nufrio, the founder of Latch Developments, contributes his expertise and vision to the company’s successful projects. Every aspect of the 1989 Appleby Line Condos reflects his experience and commitment to creating distinctive urban life spaces.</p>
+<h3>Other Successful Projects by Latch Developments</h3>
+<p>Latch Developments’ portfolio is impressive, with a range of successful projects that have enhanced urban life across the region. Each property is a testament to the developer’s commitment to creating unique living experiences that blend the latest design with convenience.</p>
+<p>The 1989 Appleby Line Condos is set to follow in the footsteps of these successful developments, bringing the same level of quality, innovation, and attention to detail that Latch Developments is known for.</p>
+<h2>Exclusive Features and Amenities of 1989 Appleby Line Condos</h2>
+<p>The 1989 Appleby Line Condos provides more than just a place to live. It aims to offer an enriched living experience, marked by exclusive features and amenities that cater to the needs and lifestyle of the latest urban dwellers.</p>
+<p>The exclusive amenity space on the 7th storey stands out as one of the most notable features of these condos. Residents can enjoy two indoor spaces, each measuring 275m2, and one expansive outdoor space of 413m2, situated on the roof of the podium.</p>
+<h3>Modern Condo Design and Layouts</h3>
+<p>The latest twin towers of 1989 Condos feature contemporary living spaces, with each tower expected to be roughly 20 stories high. The buildings are designed to house 475 residential units, offering a variety of layouts to cater to different lifestyle needs.</p>
+<h3>Pedestrian-Friendly Environment</h3>
+<p>The 1989 Condos Burlington places a high emphasis on walkability, with an impressive walk score of 86/100. This ensures that most amenities are easily accessible on foot, enhancing the urban life experience.</p>
+<p>Furthermore, the development caters to nature lovers with nearby scenic walking trails, conservation areas, and serene wooded spots. These features promote a pedestrian-friendly environment, allowing residents to enjoy the best of urban and natural living.</p>
+<h3>Ground Floor Retail Spaces</h3>
+<p>Another key feature of the 1989 Appleby Line Condos is the inclusion of ground-floor retail spaces. Latch Residential Developments has prioritized these spaces to improve walkability and enrich the pedestrian experience.</p>
+<p>The convenience of having daily necessities and leisure options within easy reach is a significant advantage for residents. As part of the mixed-use development strategy, a selection of retail spaces will feature on the ground floor among the residential units.</p>
+<h2>Preconstruction Phase and Platinum VIP Pricing</h2>
+<p>As the construction of the 1989 Appleby Line Condos is eagerly anticipated, staying informed about the preconstruction phase is crucial. While specific details regarding the timeline are currently unavailable, sales for the condos are anticipated to commence in the first or second quarter of 2024.</p>
+<h2>Nearby Attractions and Activities in Burlington</h2>
+<p>Burlington is a vibrant city with a thriving cultural scene and a host of outdoor recreational opportunities. Local parks, including Bronte Creek Provincial Park, and golf clubs such as Lowville and Millcroft, offer a range of activities for residents of 1989 Appleby Line Condos to enjoy.</p>
+<p>A myriad of cultural events fill the city’s calendar, including:</p>
+<ul>
+<li>Canada Day celebrations</li>
+<li>Concerts in the Park</li>
+<li>Culture Days</li>
+<li>The Santa Claus Parade</li>
+</ul>
+<p>Youth can engage in creative talents through the Burlington Teen Tour Band and Student Theatre Programs, nurturing their artistic side.</p>
+<p>Further enhancing the city’s cultural connections are its twin city relations with Apeldoorn and Itabashi. These relations bring exchange events and diverse programs, adding to Burlington’s vibrant cultural fabric.</p>
+<p>Public art installations, cultural facilities, and heritage sites guided by the city’s cultural map allow residents to uncover Burlington’s artistic side. Doors Open Burlington provides a unique opportunity to visit the city’s heritage sites and significant buildings which are generally not open to the public, enriching the cultural experience for residents.</p>
+<h2>Summary</h2>
+<p>The 1989 Appleby Line Condos is a testament to the latest urban life, providing residents with a harmonious blend of convenience, the latest design, and a vibrant lifestyle. Whether it’s the prime location, the wide array of amenities, or the visionary team behind the development, the condos promise a living experience like no other.</p>
+<p>As we eagerly await further details on the preconstruction phase and VIP pricing, one thing is clear – the 1989 Appleby Line Condos is set to redefine urban life in Burlington.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>What is the 1989 Appleby Line Condos project?</h3>
+<p>An upcoming residential property in Uptown Burlington offering modern living and a vibrant lifestyle.</p>
+<h3>Who is the developer behind the project?</h3>
+<p>Latch Residential Developments is the developer behind the property, well-known for its distinctive urban projects.</p>
+<h3>What amenities does the project offer?</h3>
+<p>Offers exclusive amenity space on the 7th storey, ground-floor retail spaces, and a pedestrian-friendly environment with high walkability. These amenities provide convenience and a vibrant living experience.</p>
+<p>Check out more new condominium developments in Burlington. (https://precondo.ca/new-condos-burlington/)</p>
+Read More (javascript:void(0))
+",tba,463,30,Latch,"$ 498,999 - $ 1,016,990","$ 498,999","$ 669,999","$ 1,022",$ 974 / sqft,"$10,000",$ 30000,$ 45,Yes,$ 5000,,,"*1 YEAR FREE MAINTENANCE*FREE PARKING *Excluding units 226, 811, 814 & 914(Valued at $30,000)FREE ASSIGNMENT(+ Admin Fee)FREE RIGHT TO LEASE DURING OCCUPANCY(+ Admin Fee)EXTENDED DEPOSIT STRUCTURE$5,000 on SigningBalance to 5% in 30 Days5% on June 30, 20255% on February 5, 20265% on OccupancyCapped Development levies$10,000 for all suite types*Applicable only for the next 30 salesDate: Oct 22, 2024"
+https://precondo.ca/nautique-lakefront-residences/,Nautique Lakefront Residences,"374 Martha Street, Burlington, ON",43.32656,-79.7931399,burlington,Canada,"$ 489,990+","['Outdoor DiningStorage LockersFireplace LoungeFitness CentreLibrarySwimming PoolWhirlpool', 'ParkingIndoor And Outdoor YogaDining RoomBarOutdoor Terrace With Fire FeatureShow KitchenLobby Lounge', '24 Hour ConciergeMail RoomLaundry RoomStorage RoomDining Area']",['https://precondo.ca/wp-content/uploads/2020/04/Nautique-Lakefront-Condos1FeaturedImage.jpg'],"
+<h2 class=""widgettitle"">About Nautique Lakefront Residences Development</h2>
+<p>Nautique Waterfront Condominiums represent a contemporary pre-construction condominium project spearheaded by Adi Development Group, situated at 374 Martha Street, Burlington, ON, Canada, L7R 2P7. This development will showcase a tall building with 28 levels and 240 upscale units. The projected move-in date for this living space is 2024.</p>
+<p>Stunning waterfront views await you at Nautique Lakefront Condos in Burlington. This modern building is in the Brant neighbourhood, which is going through a revitalization process. There are a number of facilities all around the location. Convenient accessibility throughout the city will be available for the residents. The building is located at the interaction of Lakeshore Road E and Martha Street. So, living at Nautique Lakefront in Burlington will provide a comfortable lifestyle.</p>
+<p>Adi Development Group has again partnered with renowned architects, ICON Architects Inc, who have planned modern and designer architecture for Nautique Lakefront Condos in Burlington. The interiors and architecture for the tower will appeal to everyone. The interior designers for Nautique Lakefront have stunning proposals for the designs and interiors. Contact a broker or realtor to find out the brokerage, mortgage, floor plans, pricing, deposit structure, and price list. The selling phase for Nautique Lakefront Condos in Burlington has already started, and a lot of suites have been sold out. Get in touch with the sales representative to purchase your realty.</p>
+<h3>Features and Amenities</h3>
+<p>Nautique Lakefront Condos in Burlington is a high-rise condo tower of 28 storeys and 240 residential units. These units will be spacious and will have one bedroom to three bedrooms per suite. The tower will have multiple amenities that will cater to the needs of the residents and provide them an active lifestyle. Some of the amenities available are fitness center, outdoor dining, indoor fireplace lounge, outdoor fire pit lounge, and indoor and outdoor yoga studio. There will also be a bar at Nautique Lakefront Condos in Burlington.</p>
+<p>Residents of Nautique Lakefront in Burlington will also be able to access to the swimming pool. There will be around 3,745 sq ft of space for commercial purposes. This will be on the three floors high podium. The units at Nautique Lakefront Condos in Burlington will also have private balconies or terraces. So, overlooking the waterfront park and the city of Burlington will be a sight that no resident will get tired of. This is certainly an investment opportunity that no interested buyer should miss out on.</p>
+<p>Nautique Lakefront Condos in Burlington will also have diverse floor plans for various kinds of residents. All the interiors of the suites will be modern and will have stunning appliances and designs. At last, Nautique Lakefront in Burlington will feature parking space as well.<br>
+Contact the realtor or agents to get all the pricing details, price list, and other sales information. Since the sales for Nautique Lakefront Condos have already started, a number of units have been sold out. Purchase your suite before it’s too late!</br></p>
+<h3>Location and Neighborhood</h3>
+<p>The construction planned is located at Brant. Brant is a popular neighborhood, and it has a number of popular entertainment spots as well. All the basic amenities will be available in close vicinity from Nautique Lakefront Condos in Burlington. The building is close to Burlington Performing Arts Centre. At the Burlington Performing Arts Centre, people will find multiple options for entertainment.</p>
+<p>Nautique Lakefront condominiums in Burlington is near Spencer Smith Park as well. People around the address can relax and enjoy these open spaces. Living at Nautique Lakefront in Burlington will come with a number of benefits, and obviously, the waterfront beauty will always be there.</p>
+<p>The downtown Burlington community is a lively one, and there are commercial areas as well as entertainment spots nearby. Aside from all these luxuries, occupants will be able to find all the basic necessities within walking distance. There are several supermarkets and grocery stores nearby.</p>
+<h3>Accessibility and Highlights</h3>
+<p>Nautique Lakefront condominiums in Burlington is close to multiple transportation options. So, accessing Burlington will be possible with the Burlington GO Station. The station connects people to major locations around Canada. There are bus services are also available nearby.<br>
+For those who prefer taking their vehicles, there is the Lakeshore Road and QEW. 374 Marth Street is also in close vicinity. So, commute to and from Nautique Lakefront in Burlington will be simple and quick for everyone.</br></p>
+<h3>About the Developer</h3>
+<p>Adi Development Group is the developer of Nautique Lakefront Condos in Burlington. The company has been changing the landscape of Ontario with its stunning constructions. Now, they are one of the renowned developers due to their work in the Ontario real estate industry. The builder believes in converting normal projects into stunning communities and buildings which people can make into homes.</p>
+<p>The company takes up construction of projects along with all the other aspects such as planning, building, etc. So, if you are looking for a luxury home in Ontario, check out the communities and buildings by this builder. The company has showcased their style and quality of construction in a number of previous projects.</p>
+<p>For similar listings, check these new condo developments in Burlington (https://precondo.ca/new-condos-burlington/).</p>
+Read More (javascript:void(0))
+",2024,240,26,ADI,"$ 489,990 - $ 1,309,990","$ 489,990","$ 639,990",$ 993,$ 974 / sqft,"$12,000 Capped on 1 Bedroom Suites $15,000 Capped on 2 Bedroom Suites",$ 65000,$ 59.95,No,$ 6500,"$5,000 on signingBalance of 5% in 30 days5% in 120 days5% on occupancy",$ 1176 / sqft,
+https://precondo.ca/gala-burlington-towns/,Gala Burlington Towns,"607 Dynes Road, Burlington, ON",43.34688,-79.78583,burlington,Canada,,,"['https://precondo.ca/wp-content/uploads/2021/03/Gala-Burlington-TownsMain1Featured.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Gala-Burlington-Towns5.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Gala-Burlington-Towns4.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Gala-Burlington-Towns3.jpg', 'https://precondo.ca/wp-content/uploads/2021/03/Gala-Burlington-Towns2.jpg']","
+<h2 class=""widgettitle"">About Gala Burlington Towns Development</h2>
+<p>Gala Burlington Towns is a new townhouse development that is currently in the pre-construction phase by DiCarlo Homes, located at 607 Dynes Road, Burlington, ON. This project will house a limited collection of 20 units in low-rise buildings of 2 storeys. The estimated completion date for occupancy for this property is still unknown.</p>
+<p>Nestled in South Central Burlington, Gala Burlington Towns will sit at Cumberland Avenue and Woodward Avenue intersection. Gala Burlington Towns will also boast contemporary and urban designs. Be it location or architectural designs, each element of Gala Burlington Towns will lure all kinds of buyers.</p>
+<p>The sales of Gala Burlington Towns in Toronto, Ontario, have already started. The price range starts from $899,900 to $899,900. So, send your request to explore information regarding sales, prices, floor plans, average price list, parking, maintenance, brokerage and other price-related details. Register soon and book your unit!</p>
+<h3>Features and Amenities</h3>
+<p>Gala Burlington Towns is bringing a pleasant and intimate community to the heart of the city. This development site will house low-rise buildings of 2 storeys with 20 suites. These units 20 will have spacious floor plans with 3 bedroom layouts. The size of each unit will vary from 1,537 square feet to 1,950 square feet.</p>
+<p>According to the available information, the list of indoor and outdoor amenities is yet to be announced. Buyers can also expect modern interiors with state-of-the-art features and finishes in each townhome. Register and send a request to get prices, brokerage, sales and details!</p>
+<h3>Location and Neighbourhood</h3>
+<p>Gala Burlington Towns is coming soon at 607 Dynes Rd in the city. The address 607 Dynes Rd has a walk score of 51. So, residents will find major amenities within walking distance. Burlington Mall is 8 minutes away. GoodLife Fitness is also available within a few steps away.</p>
+<p>Timothy’s World Coffee, Starbucks, Taco Bell, Jimmy the Greek and plenty of dining options are available in close proximity. Major grocery centers and stores such as Bulk Barn, Food Basics, Marilu’s Market and Goodness Me are mere steps away from the development.</p>
+<p>The address also has many ample green spaces around the project site. Tecumseh Park, Central Park and Tuck Park are few nearby public parks. Stop your search and send us a request now!</p>
+<h3>Accessibility and Highlights</h3>
+<p>Gala Burlington Towns is located at the bustling intersection of Cumberland Avenue and Woodward Avenue. Also, with a fine transit score of 47, residents will have easy access to multiple transit options. Burlington GO Station is just 6 minutes away.</p>
+<p>There are also many bus lines like 10 New Maple and 3 Guelph are available at the doorstep. Additionally, motorists will have close access to Highway 403. For further sale-related information, contact us or send a request soon!</p>
+<h3>About the Developer</h3>
+<p>DiCarlo Homes is a Toronto-based real estate developer with over 35 years of experience. For nearly four decades, they have been developing prominent condos and townhomes across Toronto, Ontario. All the condos and townhomes are designed to meet all the requirements of clients.</p>
+<p>There are a number of pre-construction condo and townhome developments by DiCarlo Homes, including Essence Stoney Creek and Uptown Oakville.</p>
+<p>Stay tuned at Precondo for the latest updates on new condo developments in Burlington (https://precondo.ca/new-condos-burlington/).</p>
+Read More (javascript:void(0))
+",tba,,,DiCarlo,,Register Now,Register Now,,$ 974 / sqft,,,,,,TBA,,
+https://precondo.ca/gallery-condos-and-lofts/,Gallery Condos and Lofts,"421 Brant Street, Burlington, ON",43.3262388,-79.7984206,burlington,Canada,,"['Fitness StudioBike StorageGames RoomFireplace LoungeParty RoomParcel StorageParkingCabanasSun Loungers', 'Bar24 Hour Concierge ServiceRooftop PatioPet Wash AreaSeating AreaPoolBBQ AreaLobbyRooftop Lounge', 'Guest SuitePrivate DiningLounge SeatingIndoor And Outdoor YogaLaundry RoomStorage RoomDining Area']",['https://precondo.ca/wp-content/uploads/2020/04/Gallery-Condos-and-Lofts1Featured-Image.jpg'],"
+<h2 class=""widgettitle"">About Gallery Condos and Lofts Development</h2>
+<p>Gallery Condos and Lofts, brought to you by Carriage Gate Homes, is an upcoming condominium complex situated at 421 Brant Street, Burlington, ON, Canada, L7R 1H1. This new development is set to encompass a 22-storey tower offering 161 residential units. The projected move-in date for residents of this condo property is slated for 2022. Presently, Gallery Condos and Lofts in Burlington is actively selling, with several of the condo units already purchased.</p>
+<p>Turner Fleischer Architects is handling all the architecture for the property. The interior experts, Tomas Pearce Interior Design Consulting Inc., have plans for modern interiors. Its designer infrastructure and architecture are sure to appeal all kinds of buyers. There are multiple facilities and modern finishes planned for Gallery Condos and Lofts in Burlington. Also, the address of Gallery Condos and Lofts building in Burlington provides the perfect blend of urban life and nature.</p>
+<p>If you want to purchase realty in Burlington, this is the investment opportunity you should keep an eye on. Gallery Condos and Lofts in Burlington will have a variety of floor plans. So, contact the agents, realtor, or sales representatives to know everything about the price list, pricing of the units, mortgage, and other details.</p>
+<h3>Features and Amenities</h3>
+<p>Gallery Condos and Lofts project in Burlington is a residential tower with 22 storeys, so residents are going to get mesmerizing views of the Brant neighbourhood. The building will have around 161 suites, which will range from 800 sq ft to 1,200 sq ft. The tower by Carriage Gate Homes will have one bedroom to three bedrooms per unit. Gallery Condos and Lofts in Burlington will have plenty of modern amenities to make the lifestyle simpler and appealing.</p>
+<p>Some of the modern facilities available at Gallery Condos and Lofts in Burlington are yoga room, pool, rooftop patio, and party room. There will be multiple other luxurious as per the plans. Amenities such as guest suites, gym, lounge area, pet wash, etc. should also be included at Gallery Condos and Lofts in Burlington. Also, there are around five floor plans for this development.</p>
+<p>Gallery Condos and Lofts in Burlington will have three floors high podium, which will have space for commercial and retail purposes. The tower will also have penthouses and will make for some stunning homes for the residents. All the units in the building will have stainless steel appliances, cabinet depth fridge, quartz countertops, concierge desks, and much more. So, living at Gallery Condos and Lofts in Burlington will all be about modern and striking features to enhance the lifestyle.</p>
+<p>Contact a realtor or broker to get all the details about the sales, pricing, deposit structure, price list, sales of parking space, and brokerage. A number of units have been sold out. So, purchase yours in time to have a suite in Gallery Condos and Lofts in Burlington.</p>
+<h3>Location and Neighborhood</h3>
+<p>Gallery Condos and Lofts in Burlington has a number of lifestyle amenities around the region. The building is located at Brant, and it is just a few minutes away from the waterfront. Also, it is close to Art Gallery of Burlington. The Art Gallery of Burlington is a popular location in the neighborhood. Close to Gallery Condos and Lofts in Burlington is the Mapleview Shopping Centre as well. So, people will be close to a number of attractions and facilities.</p>
+<p>All the basic retail stores and services will be available on foot from Gallery Condos and Lofts in Burlington. There is the Burlington Performing Arts Centre and various other entertainment spots in this region. Gallery Condos and Lofts in Burlington will provide great convenience and plenty of facilities in the neighborhood itself.</p>
+<h3>Accessibility and Highlights</h3>
+<p>Gallery Condos and Lofts in Burlington is located in Brant, and there is convenient accessibility throughout Burlington. Right outside the front door of the tower, there can be multiple regional bus routes found. Also, there is the Burlington GO Train Station, which will take people throughout Burlington and other nearby regions. Reaching the Union Station from Gallery Condos and Lofts in Burlington will be seamless.</p>
+<p>For those who like to take their personal vehicles, Gallery Condos and Lofts in Burlington have direct access to Highway 403, 407, and also the QEW. So, reaching downtown Toronto, Niagara Falls, or any region in Burlington will be simple and quick.</p>
+<h3>About the Developer</h3>
+<p>Carriage Gate Homes is the real estate development company that has won a number of awards for the construction of stunning communities in the Halton region since 1988. They are also involved in the Burlington revitalization and urban constructions. The builder has around four different condo constructions upcoming in Burlington (https://precondo.ca/new-condos-burlington/). The developer also has a few other communities and constructions. The company has been in the Canada construction industry for more than 30 years now.</p>
+<p>The developments around Ontario by the builders have been handpicked and in ideal locations of the city. Their impressive portfolio has developments in the City of Hamilton as well. Some of the previous constructions in Ontario by the company include Highbury Hill and Legacy Ancaster. Also, the builder has another upcoming pre-construction in Ontario, 2079 Lakeshore Rd.</p>
+Read More (javascript:void(0))
+",2023,161,23,Carriage,,,,$ 824,$ 974 / sqft,,,$ 0,No,,"Deposit Notes Initial $5,000Total to 15% Within 12 Months",$ 1205 / sqft,
+https://precondo.ca/castles-of-caledon-homes/,Castles of Caledon Homes,"Castles of Caledon Community  | Mountainview Road & Walker Road West,  Caledon,   ON",43.8626447,-79.8799255,caledon,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/04/01-26.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/02-19.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/03-14.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/04-10.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/05-8.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/06-6.jpg', 'https://precondo.ca/wp-content/uploads/2024/04/07-4.jpg']","
+<h2 class=""widgettitle"">About Castles of Caledon Homes Development</h2>
+<p>Castles of Caledon Homes is a new home development that is currently in the pre-construction phase by CountryWide Homes, located at Castles of Caledon Community | Mountainview Road &amp; Walker Road West, Caledon, ON. Castles of Caledon Homes offer unparalleled elegance. This project’s estimated completion date is still known.</p>
+<h2>Key Takeaways</h2>
+<ul>
+<li>The Caledon Castles in Caledon East provide luxurious living with detached homes boasting sophisticated designs, premium amenities, and the option to personalize space and features to the buyer’s preferences.</li>
+<li>Nestled amidst nature, the community is a perfect place that offers a blend of tranquil rural living and accessibility to urban conveniences, with nearby hiking trails, conservation areas, and a short commute to Greater Toronto Area cities.</li>
+<li>Caledon East is distinguished for its affluent community, a perfect place with a high standard of living, and a rich array of local attractions, including preserved natural landscapes, conservation areas, and cultural experiences.</li>
+</ul>
+<h2>Envision Your Dream Realm at Castles of Caledon</h2>
+<p>Nestled in the heart of Caledon East, a place where tranquility and splendour blend seamlessly, the Castles of Caledon offer you a lifestyle of unparalleled luxury. Here, you are surrounded by verdant greenery, and your senses are treated to the soothing serenity of nature.</p>
+<p>Yet, you are just a stone’s throw away from hiking trails and conservation areas, offering you the best of both worlds. The Castles of Caledon offer:</p>
+<ul>
+<li>44’ and 50’ detached homes</li>
+<li>Elegance and comfort</li>
+<li>Lavish lots</li>
+<li>Sophisticated designs</li>
+</ul>
+<p>Live life king-size in your own castle.</p>
+<h2>A Regal Lifestyle Awaits</h2>
+<p>Are you yearning for a home that complements your royal aspirations? The Castles of Caledon offer:</p>
+<ul>
+<li>A premium collection of 44’ and 50’ detached homes</li>
+<li>Ample living space</li>
+<li>Luxurious abodes</li>
+<li>A lifestyle as grand as you’ve always imagined</li>
+</ul>
+<p>The Castles of Caledon, brought to you by CountryWide Homes, offer an array of residential options to cater to your unique preferences and space requirements. Whether you need a cozy space for your nuclear family or a sprawling house for your joint family, you’ll find the perfect home here that meets all your needs.</p>
+<h2>The Great Indoors: Model Home Grandeur</h2>
+<p>Step inside the Caledon Castles and be prepared to be awestruck by the grandeur and exquisite details that each model home has to offer. Crafted with regal aesthetics, every corner of these homes resonates with luxury and splendor, ensuring an environment that is as majestic as it is comfortable.</p>
+<p>From majestic great rooms to expansive main floors, these homes exemplify grandeur in every sense of the word. The intricate details that are evident throughout the homes, natural sunlight flooding the main floor with cathedral ceilings in the great room, are a testament to the thought and craftsmanship that has gone into creating these magnificent dwellings, offering a luxurious experience that is second to none.</p>
+<h2>Step Inside the Majestic Designs</h2>
+<p>The Castles of Caledon offer:</p>
+<ul>
+<li>Homes of different sizes such as 38’, 44’, and 50’</li>
+<li>The freedom to choose a home that fits your lifestyle perfectly</li>
+<li>The liberty to customize the design according to your preferences</li>
+</ul>
+<p>With the Castles of Caledon, you can have a home that is truly yours and a reflection of your personality and taste.</p>
+<p>The architecture and design of these homes are inspired by traditional styles, yet they never compromise on modern amenities and comfort. With every element designed to perfection, from elevation to interiors, the Castles of Caledon truly epitomizes the concept of majestic living.</p>
+<h2>Elevation Excellence</h2>
+<p>The elegance of the Castles of Caledon is not confined to the interiors alone. The exteriors of these homes are equally captivating, showcasing a perfect blend of traditional-inspired architecture and modern design elements.</p>
+<p>The use of materials like brick, stone, stucco, and architectural board for elevation adds an old-world charm to these homes, while features like sectional roll-up garage doors, coach lights at entryways, and decorative aluminum railings enhance the curb appeal, making these homes a sight to behold.</p>
+<p>Every Castle of Caledon stands out for its distinctive character, thanks to the use of precast concrete window sills, headers, arches, and accents like copper or prefinished metal roofs. The attention to detail in the design and architecture of these homes is bound to leave you and your visitors spellbound.</p>
+<h2>Interior Inspirations</h2>
+<p>Stepping inside the Castle of Caledon, you are welcomed by interiors that spell nothing but luxury. With 10-foot ceilings on the main floor, smooth ceilings, and engineered hardwood flooring, these homes exude elegance at every turn.</p>
+<p>The inclusion of an electric linear fireplace, stained oak veneer stairs with wood or metal pickets, and a spinner white decorative piece further augment the overall aesthetic appeal of these homes. The gourmet kitchens in these homes are a culinary enthusiast’s dream come true.</p>
+<p>Equipped with high-quality maple or oak cabinets, large islands, and pantries, these kitchens offer the perfect setting for you to whip up your favorite dishes. The quartz or granite countertops and under-mounted double-bowl stainless steel sink add a dash of sophistication to these spaces.</p>
+<p>The bathrooms are designed to provide a spa-like experience with frameless clear glass shower enclosures, rain showerheads, and free-standing tubs in the master ensuite. The master bedrooms, with their luxurious five-piece ensuite and generous his and her closets, provide the perfect sanctuary for you to unwind after a long day.</p>
+<h2>Embrace the Castle Life: Amenities and Community</h2>
+<p>Living in the Castles of Caledon offers:</p>
+<ul>
+<li>Luxurious homes</li>
+<li>World-class amenities</li>
+<li>A vibrant community</li>
+<li>Opportunities for foodies</li>
+<li>Outdoor activities</li>
+<li>Community engagement</li>
+</ul>
+<p>Whether you’re a foodie, an outdoor enthusiast, or someone who loves engaging in community activities, the Castles of Caledon have something for everyone.</p>
+<p>With a diverse range of amenities and attractions, the neighbourhood offers:</p>
+<ul>
+<li>An Indian cuisine restaurant</li>
+<li>Easy access to a public school</li>
+<li>The Caledon Centre For Recreation &amp; Wellness</li>
+<li>Natural attractions like Warnock Lake and the Cheltenham Badlands</li>
+</ul>
+<p>You have everything you need within the neighbourhood, and can enjoy leisure and adventure without having to venture far from home.</p>
+<h2>Nature at Your Doorstep</h2>
+<p>One of the unique advantages of living in the Castles of Caledon is having nature at your doorstep. The community offers a plethora of outdoor adventures on local trails such as the Caledon Trailway Path, Cheltenham Badlands Hiking Trail, and trails at Belfountain Conservation Area.</p>
+<p>Whether you’re in the mood for a leisurely stroll or a challenging hike, you’ve got it all. The natural beauty of Caledon is yours to explore with destinations like the Bruce Trail at Devils Pulpit, the vast Great Trail, and the diverse terrains of the Oak Ridges Moraine and Palgrave Trail.</p>
+<p>And, with year-round activities including fishing, picnicking, cross-country skiing, and snowshoeing at nearby parks, there’s never a dull moment here. Don’t forget to take a stroll down Walker rd to fully experience the scenic surroundings.</p>
+<p>The Castles of Caledon community is elevated above the bustle of the city, creating a calming oasis in nature, yet providing ease of access to urban conveniences in the Greater Toronto Area.</p>
+<h2>Community and Convenience</h2>
+<p>The Castles of Caledon are located in Caledon East, a perfect place for a community that is widely recognized as one of Canada’s top places to live. With its combination of rural scenery and accessible conveniences, Caledon East offers residents a small-town feel while being close to larger urban centers.</p>
+<p>The safe and family-friendly environment, reflected in the community’s low crime rate, further enhances its appeal as an excellent place for family living. Residents can enjoy a rich assortment of local restaurants and lounges, as well as nearby estates offering sweet ciders, baked goods, and cheeses.</p>
+<p>A variety of recreational options are available, from picnics in the park to an abundance of evening entertainment choices. Outdoor enthusiasts have access to Albion Hills Conservation Park and Glen Haffy Conservation Area, which feature extensive trails, camping, and various activities like biking and fishing.</p>
+<p>The communities regularly organize events such as garden and historical walking tours to engage residents and foster community spirit.</p>
+<h2>Exclusive Features for an Exquisite Life</h2>
+<p>The Castles of Caledon stand as a symbol of exclusivity and luxury. The high starting price point of these homes is indicative of the unparalleled luxury and superior features that these residences offer.</p>
+<p>Every feature and every detail is designed to provide an exquisite living experience. The spacious driveways, paved with both base and topcoat asphalt applications, reflect the grandeur and attention to detail that are hallmarks of the Castles of Caledon.</p>
+<p>With 10-foot high ceilings on the main floor and 9-foot ceilings on the basement and second floor, these homes exude a feeling of grandeur and space, catering to everyone’s desires.</p>
+<h2>Room for Every Desire</h2>
+<p>The interiors of the Castles of Caledon are designed to cater to your every desire. The additional bedrooms are not merely sleeping quarters, but they offer abundant room and ample storage for the diverse needs of family members.</p>
+<p>Every castle comes with a spacious driveway paved with both base and topcoat asphalt applications, reflecting the grandeur and attention to detail that are hallmarks of the Castles of Caledon. These features not only enhance the aesthetic appeal of your home but also offer practical benefits such as ample parking space and easy maintenance.</p>
+<h2>Customization at Your Fingertips</h2>
+<p>At the Castles of Caledon, you are given the freedom to personalize your dream home, including the addition of a model car garage icon to showcase your prized collection. Mosaik Homes provides personalized assistance to buyers in selecting details for their Castle of Caledon home, ensuring that your home is a true reflection of your style and preferences.</p>
+<p>This personalized assistance, provided by our expert realtor, aims to achieve high customer satisfaction by allowing you to specify your desired home models, including:</p>
+<ul>
+<li>type of home</li>
+<li>design</li>
+<li>square footage</li>
+<li>budget</li>
+</ul>
+<p>Through an online register, you can choose from various models, including your desired model square icon, for your home design. So, whether you have specific design elements in mind or you’re looking for expert advice on making the best choice, you can count on Mosaik Homes to deliver a home that is as unique as you.</p>
+<h2>Location Highlights: The Allure of Caledon East</h2>
+<p>Caledon East, the home of the Castles of Caledon, is a community that is as charming as it is convenient. It is celebrated for:</p>
+<ul>
+<li>its spacious properties</li>
+<li>preserved natural landscapes</li>
+<li>conservation areas</li>
+<li>hiking trails</li>
+</ul>
+<p>Caledon East is a place where you can enjoy the tranquillity of rural living while having easy access to the conveniences of the Greater Toronto Area.</p>
+<p>Whether it is shopping, dining, arts, or recreational activities, Caledon East has a vibrant local culture that offers something for everyone. With its proximity to Toronto, residents enjoy the advantages of rural living with the convenience of being within a commutable distance of the city, making it a perfect place for those seeking a balance between tranquillity and accessibility.</p>
+<h2>Proximity to Perfection</h2>
+<p>The prime location of the Castles of Caledon offers residents excellent accessibility to major roads, including Highway 10 and Highway 50. These major highways facilitate easy commutes to nearby cities such as Brampton and Mississauga, with Toronto being easily accessible via the 410 and 407 ETR.</p>
+<p>In addition to excellent road connectivity, public transportation options further enhance the location’s appeal. The Mount Pleasant GO and Brampton GO train stations are just around a 28-minute car ride away, making it easy for residents to travel to and from Toronto and other nearby cities.</p>
+<h2>A Community of Distinction</h2>
+<p>Caledon East is a community of distinction. With a median household net worth 68% higher than the Ontario average, the area reflects the affluence of its residents and the high standard of living they enjoy.</p>
+<p>Renowned as one of Canada’s best places to live, Caledon East is consistently rated for its preserved natural lands and conservation areas.</p>
+<p>Local attractions in Caledon East include:</p>
+<ul>
+<li>The Cheltenham Badlands</li>
+<li>Albion Hills</li>
+<li>Alabaster Acres</li>
+<li>Fresh farm markets</li>
+<li>The Great War Flying Museum</li>
+</ul>
+<p>These attractions add to the allure of Caledon East, making it a place that is as exciting as it is serene.</p>
+<h2>Summary</h2>
+<p>In conclusion, the Caledon Castles by CountryWide Homes offer a unique opportunity to indulge in a lifestyle of unparalleled luxury. With their majestic designs, exclusive features, and vibrant community, these homes are truly an embodiment of elegance and easement.</p>
+<p>Located in the charming community of Caledon East, the Castles of Caledon offer the perfect blend of rural scenery and urban conveniences, making them an ideal choice for those seeking an exquisite lifestyle.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>Where is the Castles of Caledon located?</h3>
+<p>The Castles of Caledon project is located in the heart of Caledon East at Walker Road West and Mountainview Road. You can visit the site for more details.</p>
+<h3>What types of homes are available in the Castles of Caledon?</h3>
+<p>The Castles of Caledon offers a premium collection of 44′ and 50′ detached homes.</p>
+<h3>What are some of the exclusive features of the Castles of Caledon?</h3>
+<p>The Castles of Caledon offer exclusive features such as 10-foot high ceilings, gourmet kitchens with high-quality cabinets, luxurious bathrooms, and spacious master bedrooms with generous closets.</p>
+<h3>What amenities are available in the Castles of Caledon community?</h3>
+<p>The Castles of Caledon community offers diverse dining options, a public school, the Caledon Centre For Recreation &amp; Wellness, as well as outdoor attractions like Warnock Lake and the Cheltenham Badlands nearby. It offers a wide variety of amenities for residents to enjoy.</p>
+<h3>How are the connectivity and transport facilities in Caledon East?</h3>
+<p>Caledon East has good connectivity with major roads like Highway 10 and Highway 50, facilitating easy commutes to nearby cities. Additionally, the Mount Pleasant GO and Brampton GO train stations are just around a 28-minute car ride away.</p>
+<p>Looking for more pre-construction options? Check out these condo developments in Caledon (https://precondo.ca/new-condos-caledon/).</p>
+Read More (javascript:void(0))
+",tba,15,2,CountryWide,,Register Now,Register Now,,,,,,,,,,
+https://precondo.ca/strawberry-field-residences/,Strawberry Field Residences,"Kennedy Road North & Dougall Avenue, Caledon, ON",43.75634,-79.82812,caledon,Canada,,,['https://precondo.ca/wp-content/uploads/2022/03/Strawberry-Field-ResidencesMain1Featured.png'],"
+<h2 class=""widgettitle"">About Strawberry Field Residences Development</h2>
+<p>Strawberry Field Residences is a new condo development that is currently in the pre construction phase by Chacon Developments, located at Kennedy Road North &amp; Dougall Avenue, Caledon, ON. This project is bringing a luxurious low-rise building of 4 storeys with a total of 158 condo units. The estimated completion date for occupancy for this property is 2025.</p>
+<p>The famous team of designers from Vanle Architect Inc are behind the architectural renderings of this project. With scenic landscapes &amp; contemporary comfortable style, this community brings the modern standards of living in the big city.</p>
+<p>Coming soon to the vibrant neighbourhood of Southfields Village, Strawberry Fields will be just south of Mayfield Road. Simply put, there is nothing that you will not find in Southfields Village.</p>
+<p>So, if you are looking for a new home in a community embracing purposeful growth and a more relaxed lifestyle, Strawberry Field Residences in Caledon is the one for you. Give us a call &amp; get the sale price, floor map and other price-related details!</p>
+<h3><strong>Features and Amenities</strong></h3>
+<p>Strawberry Field Residences is a beautiful community housing a total of 158 condo units in a 4-storey building. The floor plan of these suites ranges from 1-bedroom to 2.5 bedrooms. Also, the size of a condo varies from 493 to 929 sqft.</p>
+<p>Boasting an authentic style of living, the developer is also proposing space for a home office, art studio, bathrooms &amp; other features for units. Buyers can also expect to find outstanding amenities such as guest suites, an outdoor courtyard, pet spa &amp; much more. As per the plans, this community will have a pet spa, boardroom and meeting spaces, fitness centre, outdoor courtyard, guest suites &amp; many more.</p>
+<p>So, to get a floor plan, get in touch with us today!</p>
+<h3><strong>Location and Neighbourhood</strong></h3>
+<p>Strawberry Field Residences will rise high at the intersection of Kennedy Rd North &amp; Dougall Ave in the village of Caledon. Located in Southfields Village, residents will find the best equestrian farms, walking, trails and rolling hills nearby.</p>
+<p>For essential shopping, M&amp;M Food Market, Sobeys,  Bulk Barn and other big-city stores are close to Strawberry Fields. Kennedy Road is also near Antica Osteria Italian Eatery, Golden Shores, Noodle To Go and other dining options. If you’ll venture out a little,  Second Cup, Starbucks, Fusion Cafe and Country Style are also available within proximity.</p>
+<p>If you love being outdoors and enjoy a relaxed lifestyle, then this location is ideal for you. The major public parks such as Lina Marino Park and Summer Valley Parkette are also close to Kennedy Road.</p>
+<h3><strong>Accessibility and Highlights</strong></h3>
+<p>Not much of a travel-friendly location but a few transit options are available close to Strawberry Field Residences. Commuters will find a bus stop to Brampton City Centre just on the front door of this property. Highway 401 &amp; other major highways are also a 10-minute drive away from  Strawberry Fields.</p>
+<h3><strong>About the Developer</strong></h3>
+<p>Chacon Developments is a Brampton-based real estate development and building company in Canada. Being a progressive team of real estate professionals, they aim to create vibrant communities with urban renderings and designer features.</p>
+<p>So far, they are responsible for a variety of developments across Downtown Toronto &amp; other cities of Ontario. Currently, they are only developing Strawberry Fields in the village of Caledon.</p>
+<p>Stay tuned to Precondo.ca for the latest updates on the condo and Townhouse projects in Caledon (https://precondo.ca/new-condos-caledon/).</p>
+Read More (javascript:void(0))
+",2025,,,Chacon,,Register Now,Register Now,,,,,,,,TBA,,
+https://precondo.ca/sovereign-condos/,Sovereign Condos,"205 17 Avenue Southwest, Calgary, AB",51.0376047,-114.0606451,calgary-alberta,Canada,High $300's,,"['https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos-Main1Featured.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos11.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos10.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos9.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos8.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos7.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos6.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos5.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos4.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos-2.webp', 'https://precondo.ca/wp-content/uploads/2023/02/Sovereign-Condos3.webp']","
+<h2 class=""widgettitle"">About Sovereign Condos Development</h2>
+<p>Sovereign Condos is a new condo development that is currently in the pre construction phase by Homes by Avi, located at 205 17 Avenue SW, Calgary, AB. This project will have a mid-rise building of 12 storeys with a total of 155 condo units. The estimated completion date for occupancy of this property is 2026.</p>
+<p>Bringing a contemporary twist, this distinctive mid rise development will have modern architecture outside and innovative design inside. Along with an innovative design, homebuyers can also expect to find luxurious features and striking finishes in each unit.</p>
+<p>Nestled in the heart of Downtown Calgary, Sovereign on 17th Avenue SW will be near everyday living conveniences &amp; entertainment options. Commuters of this historical community will also find smooth transit services within walking distance.</p>
+<p>So, contact us to explore details on this real estate investment, new possibilities, Calgary’s price list, available units for sale &amp; others!</p>
+<h3><strong>Starting Prices</strong></h3>
+<p><img alt="""" class=""aligncenter size-full wp-image-825908"" decoding=""async"" fetchpriority=""high"" height=""221"" src=""https://precondo.ca/wp-content/uploads/2023/02/sovereign-condos-3.png"" width=""532""/></p>
+<h3><strong>Features and Amenities</strong></h3>
+<p>Sovereign Condos is a beautifully appointed home development coming to the downtown core of the city. According to the information displayed, this community is home to 155 units in a 12-storey building.</p>
+<p>With an urban landscape &amp; distinctive spin, the units range from studio to two bedrooms. Also, the sizes range from 461 to 1450 square feet. Each beautifully appointed home will have stainless steel appliances, luxury flooring and other luxurious features. The building of Sovereign Condos will also have many incredible amenities such as a large lobby, underground parking and much more.</p>
+<p>So, contact our real estate professionals to get VIP access to all the latest updates on this community!</p>
+<h3><strong>Location and Neighbourhood</strong></h3>
+<p>Sovereign Condos is located at 205 17 Avenue SW, Calgary, AB. Settling in one of the most desirable neighbourhoods, this address has an impressive walk score of 94. Consquently, residents will find a fantastic assortment of shops, entertainment options, restaurants and services within walking distance.</p>
+<p>Sovereign Condos in Calgary AB is just a short stroll away from Elbow River and Roxboro Park. For daily errands, CORE Shopping Centre, TD Square and the Holt Renfrew are also just moments away from Sovereign Condos. Sovereign Condos is also close to Calgary Stampede, BMO Centre, Calgary Tower and MNP Community &amp; Sport Centre.</p>
+<h3><strong>Accessibility and Highlights</strong></h3>
+<p>With major transit facilities available nearby, this coveted address of Sovereign Condos has earned a transit score of 76. Regular transit riders will find Victoria Park / Stampede Station within mere minutes walk. Also, Crowchild Trail, Macleod Trail, and Highway 2 are just a short drive away from Sovereign Condos. As a result, travelling around the city via highways and transit services would be quick and simple.</p>
+<h3><strong>About the Developer</strong></h3>
+<p>Homes by Avi is an innovative real estate developer in the building and construction industry of Ontario. Since its establishment in 1978, they have been designing and building award-winning homes with innovative concepts.</p>
+<p>To date, they have developed an exciting range of both commercial and residential projects across Calgary, Edmonton and Austin. Moreover, with a smarter approach, they have a home building process where they deliver what they promise. Currently, they are also creating Lanark Landing, Livingston Townhomes and other condos in Calgary, Alberta (https://precondo.ca/new-condos-calgary-alberta/).</p>
+Read More (javascript:void(0))
+",2026,,,Homes,,High $300's,Mid $500's,,$ 608 / sqft,,,,,,"LIMITEDTIME EXTENDED DEPOSIT STRUCTURE$5,000 Bank Draft on SigningBalance to 5% in 10 Days5%  February 15, 2023",,
+https://precondo.ca/metroside-at-fish-creek-exchange/,Metroside at Fish Creek Exchange,"Fish Creek Exchange Community | 99 Shawnee Boulevard Southwest, Calgary, AB",50.9235702,-114.0793863,calgary-alberta,Canada,"From $356,990.00 to $463,990.00",,"['https://precondo.ca/wp-content/uploads/2022/12/Screen-Shot-2023-03-01-at-5.12.46-PM.png', 'https://precondo.ca/wp-content/uploads/2022/12/Screen-Shot-2023-03-01-at-5.12.58-PM.png', 'https://precondo.ca/wp-content/uploads/2022/12/Screen-Shot-2023-03-01-at-5.13.05-PM.png', 'https://precondo.ca/wp-content/uploads/2022/12/Screen-Shot-2023-03-01-at-5.13.12-PM.png', 'https://precondo.ca/wp-content/uploads/2022/12/Screen-Shot-2023-03-01-at-5.13.23-PM.png', 'https://precondo.ca/wp-content/uploads/2022/12/Screen-Shot-2023-03-01-at-5.13.38-PM.png']","
+<h2 class=""widgettitle"">About Metroside at Fish Creek Exchange Development</h2>
+<p>Metroside at Fish Creek Exchange is a new condo and townhouse development that is currently in the pre construction phase by Graywood Developments, located at 99 Shawnee Boulevard Southwest, Calgary, AB. This project will house a wide collection of 695 dwelling units spread across a high-rise building.</p>
+<p>Prices for the suites range from $356,990.00 – $463,990.00. The estimated completion date for occupancy of this property is 2025.</p>
+<p>Bringing all the energy and utmost comfort, this development of Metroside will have stunning exteriors &amp; interiors. The developers are also proposing modern features and trending finishes for each unit.</p>
+<p>Coming soon to the downtown core of Calgary, residents will enjoy the lifestyle amenities &amp; urban conveniences of this ultimate active living location. This complete lifestyle destination also offers transit facilities around this premium location in Calgary.</p>
+<p>So, get in touch with our agents to explore interim occupancy fees, simple land registration fee and others soon!</p>
+<h3><strong>Features and Amenities</strong></h3>
+<p>Graywood Developments is introducing Metroside condominiums and towns, the 3rd phase of the master-planned community connected to urban amenities. According to the proposed plans, buyers can expect to find 55 units in this development. With many lifestyle amenities, the mix of floor plans ranges from two-bedrooms to three bedrooms.</p>
+<p>Also, each unit will have incredible features such as large windows to enjoy amazing nature, luxury flooring &amp; much more. This pre construction condo development will also have many urban amenities such as parking, BBQ areas &amp; others.</p>
+<p>So, with no land transfer tax, low closing costs &amp; much more, purchase real estate in Metroside at Fish Creek Exchange by Graywood soon!</p>
+<h3><strong>Location and Neighbourhood</strong></h3>
+<p>Metroside at Fish Creek Exchange is located at 99 Shawnee Boulevard Southwest, Calgary, AB. Coming to the third most livable city in the world, this address has a walk score of 29. As a result, residents will find many urban conveniences within a short drive away.</p>
+<p>This large urban city has everything a resident desires around this connected community. Just a little southwest, residents will find Beaches Boat Launch access to the Bow River. Bow Valley Ranche Restaurant &amp; Annie’s Café is also a short distance away from Metroside at Fish Creek Exchange. Metroside is also close to Fish Creek Provincial Park &amp; other walkable trails.</p>
+<h3><strong>Accessibility and Highlights</strong></h3>
+<p>Located near James McKevitt Road Southwest, this location has a transit score of 55. As a result, riders will have easy access to many transit options in Downtown Calgary. Metroside at Fish Creek Exchange is just moments away from Fish Creek/Lacombe CTrain Station and CTrain Station. Easily connected to transit, motorists will also have access to major roadways &amp; thoroughfares such as Macleod Trail &amp; others.</p>
+<h3><strong>About the Developer</strong></h3>
+<p>Graywood Developments is an urban &amp; private real estate development and investment management firm in Canada. With years of building experience, they have created a wonderful variety of residential developments across the most affordable housing markets in Toronto.</p>
+<p>They also focus on creating commercial, retail and industrial projects. Currently, they are also developing 250 Lawrence Condos, Scout Condos and others in the affluent cities of Canada.</p>
+<p>So, contact Precondo &amp; get VIP access to exclusive details such as pricing, sales &amp;more condos in Calgary, AB (https://precondo.ca/new-condos-calgary-alberta/)!</p>
+Read More (javascript:void(0))
+",2025,,,Graywood,"2 beds starting at $356,990.00",Register Now,"$360,990",,$ 608 / sqft,,,,,,$5000 on signingBalance of 5% in 10 days5% in 160 days,$ 515 / sqft,
+https://precondo.ca/highgate-condos/,Highgate Condos,"Range Rd 285 & 8 Ave NE Calgary, AB",51.0598036,-113.8886664,calgary-alberta,Canada,,,"['https://precondo.ca/wp-content/uploads/2024/08/Highgate-Condo-exterior-view.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Highgate-Condo-exterior-view-2.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Highgate-Condo-exterior-view-3.jpg', 'https://precondo.ca/wp-content/uploads/2024/08/Highgate-Condo-interior-living-and-kitchen-area.jpg']","
+<h2 class=""widgettitle"">About Highgate Condos Development</h2>
+<p>Highgate Condos is a new condo development that is currently in the pre-construction phase by Truman, located at Range Rd 285 &amp; 8 Ave NE Calgary, AB. Highgate Condos offers stunning countryside views, creating a tranquil yet modern living experience that is unique. This project’s estimated completion date is 2028.</p>
+<h2>Key Takeaways</h2>
+<ul>
+<li>Highgate Condos by Truman Homes features 336 units in a master-planned community, set to be completed between 2027 and 2028.</li>
+<li>The development offers convenient access to major highways, downtown Calgary, and YYC International Airport, enhancing commuting and travel for residents.</li>
+<li>Highgate Condos integrates over 13 acres of parks and trails, providing a balance of natural beauty and modern amenities, catering to diverse lifestyle needs.</li>
+</ul>
+<h2>Highgate Condos by Truman Homes Overview</h2>
+<p>Highgate Condos is located at 8 Avenue Northeast and Range Road 285, in the rapidly developing east area of Huxley, Calgary. This prime location is ideal for those seeking a blend of peaceful suburban living with easy access to urban amenities.</p>
+<p>Highgate condos Calgary offers stunning countryside views, creating a tranquil yet modern living experience that is unique. The project is more than just a residential development; it is a new master-planned community crafted by Truman Homes.</p>
+<p>Known for their expertise in creating vibrant, sustainable communities, Truman Homes has designed Highgate Condos to offer not just homes, but a lifestyle. The careful planning and strategic location make this condo project a standout in Calgary’s east.</p>
+<p>Highgate Condos residents benefit from a community that values both nature and modern conveniences. The development integrates open green spaces and contemporary architectural designs, ensuring residents enjoy the best of both worlds.</p>
+<p>Highgate Condos offers the perfect blend of convenience, comfort, and modern living in the heart of Northeast Calgary.</p>
+<h2>Project Details and Completion Timeline</h2>
+<p>Highgate Condos is set to be a landmark condo project consisting of 336 units spread across four separate structures, each standing five stories tall. This thoughtfully designed layout ensures that residents have ample space and privacy, while also fostering a sense of community within the development.</p>
+<p>The project is part of a larger master-planned society, which means it will feature not only residential units but also complementary amenities and green spaces. The aim is to create a holistic living environment where everything you need is within easy reach.</p>
+<p>The buildings themselves are designed with modern aesthetics and functionality in mind, ensuring a comfortable and stylish living experience. Highgate Condos is expected to be completed between 2027 and 2028, with the final handover in 2028.</p>
+<p>This timeline allows for meticulous attention to detail in construction and planning, ensuring that the final product meets the high standards set by Truman Homes. The completion of Highgate Condos promises to bring a vibrant community to life. Whether you’re a young professional, a growing family, or looking to downsize, this project offers something for everyone.</p>
+<h2>Convenient Access and Transportation</h2>
+<p>One of the standout features of Highgate Condos is its prime location, providing residents with convenient access to major highways and downtown Calgary. Highgate condos is located at 8 Avenue NE and Range Rd 285 Calgary, the development ensures that commuting is a breeze.</p>
+<p>The proximity to Stoney Trail/Hwy 201 offers easy access to various parts of the city, making daily travel hassle-free. For those who work in downtown Calgary, the commute from Highgate Condos is notably short, thanks to its strategic location.</p>
+<p>This means less time spent in traffic and more time enjoying the comforts of home. Additionally, the development is just a 13-minute drive from an LRT station close access, providing residents with a quick short commute and easy access to public transit.</p>
+<p>Travelers will also appreciate the proximity to YYC International Airport, which is conveniently located only 21 minutes away. This makes Highgate Condos an excellent choice for frequent flyers or those who enjoy spontaneous getaways.</p>
+<p>Highgate Condos merges natural beauty with modern conveniences, making it an ideal home. Its seamless connectivity to major roadways and public transit allows residents to enjoy both convenience and tranquility.</p>
+<h2>Nearby Amenities and Entertainment Options</h2>
+<p>Just a 5-minute drive from East Hills Shopping Centre, offering residents various shopping and entertainment options. This nearby hub includes everything from big-box retailers to boutique shops, ensuring that daily necessities and leisure activities are always within reach.</p>
+<p>Outdoor enthusiasts will appreciate the 13 acres of parks, trails, and open spaces surrounding Highgate Condos. Nature enthusiasts can explore the nearby Mountain View Farm Camping, which provides ample opportunities for hiking, camping, and other outdoor activities.</p>
+<p>The abundance of green spaces promotes a healthy and active lifestyle, making it a perfect fit for families and individuals alike. Residents also have easy access to essential amenities such as shops, restaurants, and schools, all located close to Highgate Condos.</p>
+<p>This ensures that everything you need is practically at your doorstep, enhancing the overall living experience. Highgate condos is located at 8 Ave Ne and Range Rd 285, residents can enjoy both suburban tranquility and urban vibrancy.</p>
+<p>Whether it’s a quick shopping trip or a leisurely day at the park, Highgate Condos offers unparalleled convenience and lifestyle options on Range Rd. Highgate Condos boasts a blend of natural beauty and modern living. With such a diverse array of amenities and entertainment options nearby, residents can enjoy a balanced and fulfilling life.</p>
+<h2>Benefits of Living in Highgate Condos</h2>
+<p>Highgate Condos offers the perfect blend of natural beauty and modern amenities. Designed for sophisticated and comfortable living, the development integrates over 13 acres of parks and trails. This ensures that residents can enjoy outdoor activities and connect with nature without leaving their neighbourhood.</p>
+<p>The project focuses on modern, functional design and luxurious amenities to provide a high standard of living. The strategic location in northeast Calgary close offers convenient access to essential services and recreational facilities, making daily life both comfortable and enjoyable.</p>
+<p>Proximity to YYC International Airport, just a 21-minute drive away, is ideal for travelers. This makes international travel and quick getaways incredibly convenient.</p>
+<p>The University of Calgary is roughly a 25-minute drive from Highgate Condos. This makes it a convenient option for both students and faculty members.</p>
+<p>The short commute to downtown Calgary further enhances the appeal of Highgate Condos. Residents can enjoy the peace of suburban life while still being close to the city’s vibrant core.</p>
+<p>The location is particularly advantageous for those working in downtown Calgary, offering reduced travel times. This unique combination of convenience and tranquility makes Highgate Condos an attractive option for a wide range of potential homeowners.</p>
+<p>Highgate Condos offers a range of benefits catering to diverse lifestyle needs. Whether seeking a serene retreat or a bustling urban environment, this condo project provides both.</p>
+<h2>About Truman Homes</h2>
+<p>Truman Homes has established itself as a prominent player in Calgary’s residential and commercial development sectors. With a portfolio that includes executive homes, country estates, and urban multi-family projects, Truman Homes showcases a diverse range of expertise.</p>
+<p>Their commitment to quality and innovation is evident in each project they undertake. The company’s approach combines traditional design principles with modern functionality, ensuring that their developments cater to the evolving needs of today’s homeowners.</p>
+<p>This blend of classic and contemporary elements creates living spaces that are both timeless and practical. However, customer feedback on Truman Homes has been mixed. While many praise the quality of construction and overall design, there have been significant criticisms regarding customer experience and service responsiveness.</p>
+<p>This variability underscores the need for thorough research and due diligence when purchasing. Despite these challenges, Truman Homes continues to be a respected name in the industry, and it is known for its ambitious projects and dedication to creating vibrant communities.</p>
+<p>Highgate Condos is a testament to their vision of integrating natural beauty with modern living.</p>
+<h2>Summary</h2>
+<p>Highgate Condos by Truman Homes ideally situated in Northeast Calgary, offers a unique blend of tranquility and urban convenience, making it an ideal choice for a diverse range of homeowners. With its strategic location, comprehensive amenities, and thoughtful design, this new master-planned community promises a high standard of living.</p>
+<p>As we look forward to the completion of Highgate Condos, it’s clear that this development will provide residents with a balanced lifestyle that integrates natural beauty with modern comforts. Whether you’re a young professional, a family, or a retiree, Highgate Condos could be the perfect place to call home.</p>
+<h2>Frequently Asked Questions</h2>
+<h3>Where is Highgate Condos located?</h3>
+<p>Highgate Condos is situated at 8 Avenue Northeast and Range Road 285, in the eastern part of Huxley, Calgary.</p>
+<h3>What is the estimated completion date for Highgate Condos?</h3>
+<p>The estimated completion date for Highgate Condos is scheduled for 2028.</p>
+<h3>How many units will Highgate Condos have?</h3>
+<p>Highgate Condos will comprise a total of 336 units across four five-story buildings.</p>
+<h3>What amenities are nearby Highgate Condos?</h3>
+<p>Highgate Condos is ideally situated near East Hills Shopping Centre, parks, trails, shops, restaurants, and schools, providing a comprehensive range of amenities and leisure options.</p>
+<h3>Who is the developer behind Highgate Condos?</h3>
+<p>Highgate Condos is developed by Truman Homes, a well-regarded name in Calgary’s residential and commercial development sectors.</p>
+<p>Looking for more options? Check out new developments in Calgary. (https://precondo.ca/new-condos-calgary-alberta/)</p>
+Read More (javascript:void(0))
+",2028,336,4,Truman,,Register Now,Register Now,,$ 608 / sqft,,,,,,,,
