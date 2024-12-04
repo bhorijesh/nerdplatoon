@@ -41,7 +41,7 @@ def insert_into_table(cursor, table,df):
         print(f'Error while inserting into Database: {e}')
 
 def main():
-    df = pd.read_csv('details_test.csv')
+    df = pd.read_csv('details.csv')
     try:
         db_connection, cursor = connect_database()
     except Exception as e:

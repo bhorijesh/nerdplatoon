@@ -178,29 +178,26 @@ def scrape_amenities(soup):
     except Exception as e:
         logger.error(f"Error while getting amenities: {e}")
         return None
+
+def remove_attributes(element):
+     for tag in element.find_all(True):
+          tag.attrs = {}
+     return element
+
     
 def scrape_description(soup):
     """Processes and removes specific hyperlinks while retaining HTML tags."""
     try:
-        container = soup.find('div', class_='description__box')
-        
-        if container:  
-            for a_tag in container.find_all('a'):
-                link_text = a_tag.get_text(strip=True)  
-                link_url = a_tag.get('href') 
-
-                # Remove unwanted hyperlinks
-                if link_url.startswith("https://precondo.ca/") or link_url == "javascript:void(0)":
-                    a_tag.decompose()  
-                elif link_url: 
-                    a_tag.replace_with(f"{link_text} ({link_url})") 
-                
-            updated_html = ''.join(str(child) for child in container.children)
-            return updated_html
-        return None
+          details_container = soup.find('div', class_ = 'description__box')
+     
+          if details_container:
+               cleaned_details = remove_attributes(details_container)
+               details = cleaned_details.decode_contents()  
+               # print(details)  
+               
+          return details
     except Exception as e:
-        logger.error(f"Error processing hyperlinks: {e}")
-        return None
+          logger.error(f"Error while getting details : {e}")
 
     
 def extract_number(value):
@@ -273,7 +270,7 @@ def scrape_incentive(soup):
 
 
 
-def scrape_data(link, title, lat, lon, contry, city):
+def scrape_data(link):
     """Main function to scrape data from a single property listing."""
     page_content = fetch_page_content(link)
     if not page_content:
@@ -291,16 +288,18 @@ def scrape_data(link, title, lat, lon, contry, city):
     description = scrape_description(soup)
     pricing_incentive = scrape_incentive(soup)
     floor_plan = scrape_floor_plan(soup)
+    # flag =1 if lat and lon else 0
 
     return {
         'uuid' : unique_id,
         "link": link,
-        "title": title,
+        # "title": title,
         "address": address,
-        "lat": lat,
-        "lng": lon,
-        "city": city,
-        "country": contry,
+        # "lat": lat,
+        # "lng": lon,
+        # "latLng_status" : flag,
+        # "city": city,
+        # "country": contry,
         "price": price,
         "amenities": amenities,
         "img_src": img,
@@ -318,7 +317,7 @@ def main():
     scraped_data = []
 
     for index, row in csv_data.iterrows():
-        # if index >=15:
+        # if index >=5:
         #     break
         link = row['link']
         title = row['title']
@@ -338,7 +337,7 @@ def main():
     # Create a DataFrame and save to CSV
     if scraped_data:
         scraped_df = pd.DataFrame(scraped_data)
-        scraped_df.to_csv('details_test.csv', index=False)
+        scraped_df.to_csv('details.csv', index=False)
         logger.info("Scraping completed!")
     else:
         logger.warning("No data was scraped.")

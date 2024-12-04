@@ -9,36 +9,19 @@ import pymysql
 import requests
 from datetime import date
 import json
+from base.log_config import logger
+from deepdiff import DeepDiff
 
-# Define constants
-QUERYSTRING = {
-    "ajaxcall": "true",
-    "ajaxtarget": "privatenotes,listingmeta,customlistinginfo_attributiontext,listingdetailsmap,routeplanner,listingcommunityinfo,metainformation,listingmeta_bottom,listingmedia,listingpropertydescription,listingtabtitles,listingtools_save_bottom,customlistinginfo_commentsshort,listingtools,listingtools_mobile,listinginfo,listingmarkettrendsmodule,localguidelistingdetailspage,listingdrivetime,listingphotos,listingdetails",
-    "cms_current_mri": "119274"
-}
 
-HEADERS = {
-    "accept": "application/xml, text/xml, */*; q=0.01",
-    "accept-language": "en-US,en;q=0.9",
-    "cache-control": "no-cache",
-    "pragma": "no-cache",
-    "priority": "u=1, i",
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": "Windows",
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-origin",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "x-requested-with": "XMLHttpRequest"
-}
 
 DB_TABLE_NAME = "Precondo"  # Define your table name here
 
 class PropertyUpdater:
+
     def __init__(self):
         self.db_connection, self.cursor = self.connect_database_with_pymysql()
         self.engine = self.connect_database_with_sqlalchemy()
-        self.driver = self.driver_initialization()
+        # self.driver = self.driver_initialization()
 
     def connect_database_with_sqlalchemy(self):
         try:
@@ -67,21 +50,20 @@ class PropertyUpdater:
             return None, None
 
     def fetch_link(self, i, link: str) -> dict:
-        url = f"{link}/xml-out"
-        response = requests.get(url, headers=HEADERS, params=QUERYSTRING)
-        
-        # Initialize base data structure for the extracted data
-        extracted_data = {
-            'price': None, 'img': None, 'link': link,
-            'title':None, 'location':None,
-            'updated_at': datetime.date.today().strftime('%Y/%m/%d'),
-            'about': None, 'bedroom': None,
-            'full_baths': None, 'partial_bath': None,
-            'Property_type': None, 'amenities': None,
-            'exterior_details': None, 'Property_Details': None,
-            'Interior_details': None, 'new_feature':None,
-            'interior': None, 'exterior': None
+        COOKIES = {
+            "authenticated": "1",
+            "_calendly_session": "OhOEXtFW6dtT6YPnxYgvKYUtvAE0vdYNkWHyYkrm5UDK6gdhGcD9Jv9KYvqJjZ62GTnJJ1JWjL17f4T5KcWnEhuKNDWZpz6Y02xUwyc7UmN2BijZAHrlxFyKhlJcQd0aGQt6X0R54Td92E8nYccOoVsCCw0NAB2wgnjyiVgbWOgXaxzBarfb1CqPQB7PZ2u5JXNzoHP6Iq50D70EVGH%2FrPa3fSA5l8enzuxHhScBdWy8ewWmhZdKVENa%2BwJH8c3pi7DZ7hT9irg1Je65MvmailTV4cQ0hQpgMyafPwu6bygO2bqGR5Z6GQ6c0i7mby22bR9MlnQyrIA5Wmn0YSVKCK3twQ%3D%3D--K%2FA5LhV9%2BjevkK5w--jsTzjN%2BT282HwZRl6zbNLA%3D%3D",
+            "another_cookie_name": "sBCYpGZ3az3Qr8qSXvFcJLkF9UduTwVA9SQGpTC7nXE94adrMfcgglA55VxyeZg%2BeNf2amMEPd2poSI%2BTvTYFqf3ucVVNfg%2F2DKsWvBFd7nQ0vt9kHUjgoOM36%2FSdXc2LzH1IwUR9ByXuBzX1MQHrLP6kbDjBi6IGRKW%2BicVn67C0OJapMp9Mx%2ByQ0BTQs0Qgc7q5Bd%2BhgJwk3oiXmZ0NRr%2FJtavZXH0IWXWFzR%2BmL5XG8gXkplYtDgbkeRprudcZpWROa4mtpQgUe6a1JQ0iZacifGvF%2Fkvog4LwbyGInGgeaamSmzItiBTBpdzrJg14SZ4mni8OJggbnXUqxHA9TPCPx9XZhuGHQDBX9Rg2prGly%2Bl5Oor3UfyrjVrI04tnKsrDaDw7DxfhhXG8pRLp6mPOqouKvu1MxlhIjX0Uoybw2F9ZpkDXzyWZywetfLbUiAhKIx21rimB8A60TrQZ0IkrmlK59XN9Vm5aUZ5tH8iO1YmMLdxo37nbgulsD6nwUfIKuiE1TcbKMar2a0%2FOI0N362qpTzhaUhxdIcb6%2BXXeA80kG3Iut%2FNttHR4DP1TZGKtzXwQzIyM5zTujsW0WqkFwpsmjQ8jNQV7gryGa2jArCsNzG78OW35DqooP3fzWQf967%2Fu%2FjVYGimJKjAA3TXXq27PiAvTRlV4hsbtvH2kVKp9EE77GtBWELvQ9zUrZyYAfLXD0TB0e2rGNL%2F5NCuBbaOUho%3D--l2NUKkB2AlvrqyJY--QWi1qDquCzDCBSPe8IpUrw%3D%3D"
         }
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+        }
+        url = f"{link}"
+        response = requests.get(link, cookies=COOKIES, headers=headers)
+        response.raise_for_status()
+
+        # Initialize base data structure for the extracted data
+        extracted_data = {}
 
         if response.status_code == 200 and response.content.strip():
             print(f"Data fetched successfully from {url}")
@@ -100,8 +82,9 @@ class PropertyUpdater:
             print(f"Failed to fetch data from {url} - Status code: {response.status_code}")
             status_404 = 0
             extracted_data = {'status_404': status_404, 'link': link}
-
+        # logger.info(extracted_data)
         return extracted_data
+
 
 
     def validating_with_db_data(self, db_data: pd.DataFrame, extracted_data: dict) -> tuple[dict | None, bool]:
@@ -116,6 +99,16 @@ class PropertyUpdater:
             print(f"Link {extracted_data['link']} found in database.")  # Debug print for link found in DB
             changed_row = {}
             
+            upper = ['occupancy', 'developer','deposit_structure']
+            
+            sqft = ['one_bed_starting_from',
+                     'storeys', 
+                    'two_bed_starting_from', 
+                    'price_per_sqft', 'avg_price_per_sqft', 
+                    'city_avg_price_per_sqft', 
+                    'parkin_costs', 
+                    'parkin_maintenance', 'storage_cost']
+            
             for key in extracted_data.keys():
                 if key in db_row.columns:
                     db_value = db_row[key].iloc[0]
@@ -129,11 +122,46 @@ class PropertyUpdater:
                             IMAGES_CHANGED = True
                             print(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value_copy)} TO {len(extracted_value)}")
                             changed_row[key] = extracted_value
-                    elif key == 'amenities':
+                            
+                    elif key == 'Incentives':
                         if extracted_value != db_value:
                             VALUE_CHANGED = True
                             changed_row[key] = extracted_value
-                            print(f"{extracted_data['link']} :: {key} CHANGED FROM {db_value} TO {extracted_value}")
+                            logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value)} TO {len(extracted_value)}")
+                        else:
+                            logger.info(f"{extracted_data['link']} :: {key} Not CHANGED ")
+                            
+                    elif key == 'floor_plans':
+                         diff = DeepDiff(db_value, extracted_value, ignore_order=True).to_dict()
+                         if diff:
+                            VALUE_CHANGED = True
+                            changed_row[key] = extracted_value
+                            logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value)} TO {len(extracted_value)}")
+                         else:
+                            logger.info(f"{extracted_data['link']} :: {key} Not CHANGED ")
+
+                    elif key in upper: 
+                        # Handle NaN values in upper keys section
+                        if pd.isna(db_value) and pd.isna(extracted_value):
+                            continue 
+                        elif pd.isna(db_value) or pd.isna(extracted_value):
+                            VALUE_CHANGED = True
+                            changed_row[key] = extracted_value
+                            logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value_copy)} TO {len(extracted_value)}")
+
+                        elif extracted_value != db_value:
+                            VALUE_CHANGED = True
+                            changed_row[key] = extracted_value
+                            logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value_copy)} TO {len(extracted_value)}")
+                            
+                    elif key in sqft:
+                        if extracted_value is not None and db_value is not None:
+                            if str(float(extracted_value)) != str(float(db_value)):
+                                VALUE_CHANGED = True
+                                changed_row[key] = extracted_value
+                                logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value_copy)} TO {len(extracted_value)}")
+                            
+                            
                 else:
                     if str(extracted_value) != str(db_value):
                         VALUE_CHANGED = True
@@ -149,7 +177,6 @@ class PropertyUpdater:
                 changed_row['id'] = db_row['id'].iloc[0]
                 changed_row['link'] = extracted_data['link']
                 changed_row['updated_at'] = date.today().strftime('%Y/%m/%d')
-                changed_row['title'] = db_row['title'].iloc[0]
                 changed_extracted_data.update(changed_row)
             
             # Debug print for validation result
@@ -170,6 +197,7 @@ class PropertyUpdater:
             return None, IMAGES_CHANGED
 
 
+
     def delete_not_found_items(self, filtered_df: dict) -> None:
         query_tuple = (datetime.date.today().strftime('%Y/%m/%d'), datetime.date.today().strftime('%Y/%m/%d'), filtered_df['link'])
         try:
@@ -184,7 +212,6 @@ class PropertyUpdater:
         
 
     def update_data(self, changed_data: dict) -> None:
-        # Ensure that the 'img' field is properly serialized if it's a list
         if 'img_src' in changed_data and isinstance(changed_data['img_src'], list):
             changed_data['img_src'] = json.dumps(changed_data['img_src'])
         if 'amenities' in changed_data and isinstance(changed_data['amenities'], dict):
@@ -198,9 +225,6 @@ class PropertyUpdater:
         update_values = [changed_data[key] for key in changed_data.keys() if key not in ['id', 'link']]
         update_values.append(changed_data['link'])
 
-        # Debug prints to inspect the query and values
-        print("Update query:", update_query)
-        # print("Update values:", update_values)
 
         try:
             self.db_connection.ping(reconnect=True)
@@ -214,7 +238,7 @@ class PropertyUpdater:
 
 
     def get_database_links(self) -> pd.DataFrame:
-        query = "SELECT uuid, link, title, address, lat, lng, city, country, price, amenities, img_src, description, occupancy, suites, storeys, developer, price_range, one_bed_starting_from, one_bed_starting_from_unit, two_bed_starting_from, two_bed_starting_from_unit, price_per_sqft, price_per_sqft_unit, avg_price_per_sqft, avg_price_per_sqft_unit, city_avg_price_per_sqft, city_avg_price_per_sqft_unit, development_levies, parking_costs, parking_costs_unit, parkin_maintenance, parking_maintenance_unit, assignment_fee_free, storage_cost, storage_cost_unit, deposit_structure, created_at, floor_plans, Incentives FROM Precondo WHERE deleted_at IS NULL"
+        query = "SELECT id,uuid, link, address, price, amenities, img_src, description, occupancy, suites, storeys, developer, price_range, one_bed_starting_from, one_bed_starting_from_unit, two_bed_starting_from, two_bed_starting_from_unit, price_per_sqft, price_per_sqft_unit, avg_price_per_sqft, avg_price_per_sqft_unit, city_avg_price_per_sqft, city_avg_price_per_sqft_unit, development_levies, parking_costs, parking_costs_unit, parkin_maintenance, parking_maintenance_unit, assignment_fee_free, storage_cost, storage_cost_unit, deposit_structure, created_at, floor_plans, Incentives FROM Precondo WHERE deleted_at IS NULL"
         try:
             df = pd.read_sql(query, con=self.engine)
             print(f"Fetched {len(df)} links from the database.")
@@ -227,111 +251,61 @@ class PropertyUpdater:
         """Extract details for a given property link using the scrape_data function."""
         try:
             # Scrape the data using the scrape_data function
-            extraction = scrape_data(self.driver, link)
-            
-            # Extract the necessary data from the scraped information
+            extraction = scrape_data(link)
+
+            # Extract necessary data from the scraped information
             price = extraction.get('price', None)
-            title = extraction.get('title', None)
-            loaction = extraction.get('location', None)
-            about = extraction.get('about', None)
             amenities = extraction.get('amenities', [])
-            img_urls = extraction.get('img', [])
-            property_type = extraction.get('type', None)
-            new_feature = extraction.get('new_feature',None)
-            
-            # Initialize a dictionary for the listing details
-            listing_details = {}
-            
-            try:
-                soup = BeautifulSoup(extraction.get('html', ''), 'html.parser')
-                list_info = soup.find_all('dl', class_="listing-info__box-content")
-                for item in list_info:
-                    key_element = item.find('dt', class_="listing-info__title")
-                    value_element = item.find('dd', class_="listing-info__value")
-                    key = key_element.text.strip() if key_element else None
-                    value = value_element.text.strip() if value_element else None
-                    if key in ["Full Bath", "Full Baths"]:
-                        listing_details["full_baths"] = value
-                    elif key in ["Partial Bath", "Partial Baths"]:
-                        listing_details["partial_bath"] = value
-                    elif key in ["Bedrooms", "Bedroom"]:
-                        listing_details["bedroom"] = value
-                    elif key and value:
-                        listing_details[key] = value
-            except Exception as e:
-                print(f"Error extracting listing info: {e}")
-            
-            property_details = {}
-            if amenities is None:
-                amenities = []
-            
-            try:
-                details_container = soup.find('div', class_='prop-description__details grid grid--spaced-all')
-                if details_container:
-                    for section in details_container.find_all('h3', class_='prop-description__title'):
-                        section_key = section.text.strip()
-                        if section_key == "Exterior":
-                            section_key = "exterior_details"
-                        elif section_key == "Interior":
-                            section_key = "interior_details"
-                        
-                        section_values = {}
-                        next_sibling = section.find_next_sibling('dl')
-                        if next_sibling:
-                            dt_elements = next_sibling.find_all('dt', class_="prop-description__label")
-                            dd_elements = next_sibling.find_all('dd', class_="prop-description__value")
-                            for dt, dd in zip(dt_elements, dd_elements):
-                                detail_key = dt.text.strip()
-                                detail_value = dd.text.strip()
-                                if detail_key == 'Amenities':
-                                    amenities.append(detail_value)  
-                                elif detail_key and detail_value:
-                                    section_values[detail_key] = detail_value
-                        if section_values:
-                            property_details[section_key] = section_values
-            except Exception as e:
-                print(f"Error extracting property details: {e}")
-                
-            return {
-                'price': price, 'img': img_urls, 'link': link,'title':title,
-                'location':loaction,
+            img_urls = extraction.get('img_src', [])
+            floor_plans = extraction.get('floor_plans',{})
+            overview_keys = ['occupancy','suites','storeys','developer']
+            overview = {key: extraction.get(key) for key in overview_keys}
+            prefixes = ["price_", "parking_", "storage_", "avg_", "incentive", "city_", "dev","one_","two_",'In']
+            pricing_incentive = {key: extraction.get(key) for key in extraction if any(key.startswith(prefix) for prefix in prefixes)}
+            floor_plans_str = json.dumps(floor_plans) if floor_plans else None
+
+            # Initialize the result dictionary
+            result = {
+                'price': price,
+                'img_src': img_urls,
+                'link': link,
                 'updated_at': datetime.date.today().strftime('%Y/%m/%d'),
-                 'about': about,'amenities': amenities,  
-                'new_feature': new_feature ,
-                **listing_details,
-                **property_details,
-                'Property_type':property_type,
+                'amenities': amenities,
+                'floor_plans' : floor_plans_str,
+                **overview,
+                **pricing_incentive,
             }
 
-        except Exception as e:
-            print(f'data extraction failed: {e}')
+            return result
 
-    def driver_initialization(self):
-        """Initializes and returns a Selenium WebDriver."""
-        options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
-        options.add_argument('--disable-gpu')
-        driver = webdriver.Chrome(options=options)
-        return driver
+        except Exception as e:
+            print(f'Data extraction failed: {e}')
+            return None
+
+
+
+    # def driver_initialization(self):
+    #     """Initializes and returns a Selenium WebDriver."""
+    #     options = webdriver.ChromeOptions()
+    #     options.add_argument('--headless')
+    #     options.add_argument('--disable-gpu')
+    #     driver = webdriver.Chrome(options=options)
+    #     return driver
 
     def main(self):
         df = self.get_database_links()
-        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-            futures = []
-            for i, link in enumerate(df['link']):
-                # Pass both index and link to fetch_link
-                futures.append(executor.submit(self.fetch_link, i, link))
-
-            for future in concurrent.futures.as_completed(futures):
-                data = future.result()
-                if data.get('status_404') == 1:
-                    self.delete_not_found_items(data)
-                else:
-                    changed_data, _ = self.validating_with_db_data(df, data)
-                    if changed_data:
-                        self.update_data(changed_data)
+        for i, link in enumerate(df['link']):
+            # Sequentially call fetch_link with index and link
+            data = self.fetch_link(i, link)
+            if data.get('status_404') == 1:
+                self.delete_not_found_items(data)
+            else:
+                changed_data, _ = self.validating_with_db_data(df, data)
+                if changed_data:
+                    self.update_data(changed_data)
 
         self.driver.quit()
+
 
 if __name__ == "__main__":
     updater = PropertyUpdater()
