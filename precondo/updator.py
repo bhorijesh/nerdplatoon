@@ -131,6 +131,13 @@ class PropertyUpdater:
                         else:
                             logger.info(f"{extracted_data['link']} :: {key} Not CHANGED ")
                             
+                    elif key == 'amenities':
+                        if extracted_value != db_value:
+                            VALUE_CHANGED = True
+                            changed_row[key] = extracted_value
+                            logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value)} TO {len(extracted_value)}")
+                        else:
+                            logger.info(f"{extracted_data['link']} :: {key} Not CHANGED ")
                     elif key == 'floor_plans':
                          diff = DeepDiff(db_value, extracted_value, ignore_order=True).to_dict()
                          if diff:
