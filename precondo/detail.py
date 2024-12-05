@@ -5,7 +5,7 @@ import uuid
 import datetime
 from base.log_config import logger  
 import re
-
+import json
 
 COOKIES = {
     "authenticated" : "1",
@@ -169,8 +169,9 @@ def scrape_amenities(soup):
         if amenities_container:
             amenities = []  # Initialize an empty list to hold the amenities
             for item in amenities_container.find_all('div', class_='amenity-column'):
-                amenity_text = item.get_text(strip=True)
-                amenities.append(amenity_text)  
+                for a in item.find_all('div',class_ ="d-flex"):
+                    amenity_text = a.get_text(strip=True)
+                    amenities.append(amenity_text)  
             return amenities  
         else:
             return None
@@ -270,7 +271,7 @@ def scrape_incentive(soup):
 
 
 
-def scrape_data(link):
+def scrape_data(link, title , lat ,lon ,contry ,city):
     """Main function to scrape data from a single property listing."""
     page_content = fetch_page_content(link)
     if not page_content:
@@ -288,25 +289,25 @@ def scrape_data(link):
     description = scrape_description(soup)
     pricing_incentive = scrape_incentive(soup)
     floor_plan = scrape_floor_plan(soup)
-    # flag =1 if lat and lon else 0
+    flag =1 if lat and lon else 0
 
     return {
         'uuid' : unique_id,
         "link": link,
-        # "title": title,
+        "title": title,
         "address": address,
-        # "lat": lat,
-        # "lng": lon,
-        # "latLng_status" : flag,
-        # "city": city,
-        # "country": contry,
+        "lat": lat,
+        "lng": lon,
+        "latLng_status" : flag,
+        "city": city,
+        "country": contry,
         "price": price,
         "amenities": amenities,
         "img_src": img,
         "description": description,
         **overview,
         **pricing_incentive,
-        **floor_plan,
+        **floor_plan,  
         'created_at': datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     }
@@ -317,8 +318,8 @@ def main():
     scraped_data = []
 
     for index, row in csv_data.iterrows():
-        # if index >=5:
-        #     break
+        if index >=30:
+            break
         link = row['link']
         title = row['title']
         lat = row['lat']
@@ -337,7 +338,7 @@ def main():
     # Create a DataFrame and save to CSV
     if scraped_data:
         scraped_df = pd.DataFrame(scraped_data)
-        scraped_df.to_csv('details.csv', index=False)
+        scraped_df.to_csv('details_test.csv', index=False)
         logger.info("Scraping completed!")
     else:
         logger.warning("No data was scraped.")

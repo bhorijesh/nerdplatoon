@@ -48,7 +48,7 @@ class PropertyUpdater:
         except Exception as e:
             print(f'Error while connecting to MySQL: {e}')
             return None, None
-        
+
     def fetch_link(self, i, link: str) -> dict:
         COOKIES = {
             "authenticated": "1",
@@ -120,8 +120,6 @@ class PropertyUpdater:
                             VALUE_CHANGED = True
                             changed_row[key] = extracted_value
                             logger.info(f"{extracted_data['link']} :: {key} CHANGED FROM {len(db_value)} TO {len(extracted_value)}")
-                         else:
-                            logger.info(f"{extracted_data['link']} :: {key} Not CHANGED ")
 
                     elif key in upper: 
                         # Handle NaN values in upper keys section
@@ -164,9 +162,9 @@ class PropertyUpdater:
             
             # Debug print for validation result
             if VALUE_CHANGED or IMAGES_CHANGED:
-                print(f"Link {extracted_data['link']} validated, changes detected.")
+                logger.info(f"Link {extracted_data['link']} validated, changes detected.")
             else:
-                print(f"Link {extracted_data['link']} validated, no changes detected.")
+                logger.info(f"Link {extracted_data['link']} validated, no changes detected.")
         
         else:
             print(f"Link {extracted_data['link']} NOT found in database, considered changed.")  # Debug print for not found link
